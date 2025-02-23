@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "FIFO_8_2048_FWFT",
+        "--base_path",
+        "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "11",
+        "DATA_WIDTH": "8",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TITANIUM\"",
+        "ASYM_WIDTH_RATIO": "5",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\FIFO_8_2048_FWFT_tmpl.vhd",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\FIFO_8_2048_FWFT_tmpl.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\FIFO_8_2048_FWFT_define.vh",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\FIFO_8_2048_FWFT.v"
+        ],
+        "external_example_example": [
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\T20F256_devkit\\fifo_demo.peri.xml",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\T20F256_devkit\\fifo_demo.xml",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\T20F256_devkit\\fifo_demo_top.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\T20F256_devkit\\FIFO_8_2048_FWFT.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\T20F256_devkit\\FIFO_8_2048_FWFT_define.vh"
+        ],
+        "external_example_2": [
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Ti60F225_devkit\\fifo_demo.xml",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Ti60F225_devkit\\fifo_demo_top.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Ti60F225_devkit\\FIFO_8_2048_FWFT.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Ti60F225_devkit\\FIFO_8_2048_FWFT_define.vh"
+        ],
+        "external_testbench_testbench": [
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Testbench\\fifo_tb.sv",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Testbench\\xrun.sh",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Testbench\\msim.sh",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Testbench\\flist",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Testbench\\modelsim.do",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Testbench\\FIFO_8_2048_FWFT.v",
+            "E:\\Desktop\\FPGA\\Code\\06-3_Ti60_Dual_MT9M001_HDMI_19201080\\ip\\FIFO_8_2048_FWFT\\Testbench\\FIFO_8_2048_FWFT_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-11-05T12:18:57.909866"
+}
