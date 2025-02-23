@@ -1,0 +1,99 @@
+{
+    "args": [
+        "-o",
+        "dsi_tx",
+        "--base_path",
+        "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "mipi",
+            "name": "efx_dsi_tx",
+            "version": "5.7"
+        }
+    ],
+    "conf": {
+        "tLPX_NS": "60",
+        "tINIT_NS": "1000",
+        "NUM_DATA_LANE": "4",
+        "HS_BYTECLK_MHZ": "50",
+        "CLOCK_FREQ_MHZ": "50",
+        "DPHY_CLOCK_MODE": "\"Continuous\"",
+        "PIXEL_FIFO_DEPTH": "4096",
+        "tLP_EXIT_NS": "100",
+        "tCLK_ZERO_NS": "280",
+        "tCLK_TRAIL_NS": "100",
+        "tCLK_PRE_NS": "10",
+        "tCLK_POST_NS": "100",
+        "tCLK_PREPARE_NS": "50",
+        "tWAKEUP_NS": "1000",
+        "tHS_ZERO_NS": "200",
+        "tHS_TRAIL_NS": "65",
+        "tHS_EXIT_NS": "120",
+        "Pack_48": "1'b1",
+        "Pack_64": "1'b0",
+        "tHS_PREPARE_NS": "50",
+        "BTA_TIMEOUT_NS": "1000",
+        "tD_TERM_EN_NS": "35",
+        "tHS_PREPARE_ZERO_NS": "145",
+        "ENABLE_V_LPM_BTA": "1'b0",
+        "PACKET_SEQUENCES": "1",
+        "HS_CMD_WDATAFIFO_DEPTH": "512",
+        "LP_CMD_WDATAFIFO_DEPTH": "512",
+        "LP_CMD_RDATAFIFO_DEPTH": "512",
+        "MAX_HRES": "1024",
+        "ENABLE_BIDIR": "1'b1",
+        "ENABLE_EOTP": "1'b0"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\dsi_tx_define.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\dsi_tx_tmpl.vhd",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\dsi_tx_tmpl.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\dsi_tx.sv"
+        ],
+        "external_testbench_modelsim": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\modelsim\\dsi_tx.sv"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\data_pack.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\dual_clock_fifo.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\panel_config.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\shift_reg.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\simple_dual_port_ram.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\true_dual_port_ram.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\vga_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\dsi_hs_cmd_tb.mem",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\dsi_tb.mem",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\TI60F225_MIPI_dsi_tb.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\modelsim.do",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\dsi_tx.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\dsi_tx_define.vh"
+        ],
+        "external_example_example": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\data_pack.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\dual_clock_fifo.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\panel_config.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\reset.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\shift_reg.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\simple_dual_port_ram.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\TI60F225_MIPI_dsi.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\true_dual_port_ram.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\vga_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\Panel_1080p_reg.mem",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\ti60f225_demo.sdc",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\dsi_tx.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\dsi_tx_define.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\ti60f225_demo.peri.xml",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Ti60F225_devkit\\ti60f225_demo.xml"
+        ],
+        "external_testbench_ncsim": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\ncsim\\dsi_tx.sv"
+        ],
+        "external_testbench_synopsys": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmp_krhr4w4\\ip\\dsi_tx\\Testbench\\synopsys\\dsi_tx.sv"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-25T13:37:43.738407"
+}
