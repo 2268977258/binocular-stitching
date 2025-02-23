@@ -1,0 +1,606 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jun 22, 2023 06:54:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 16:06:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 16:13:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 16:26:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 16:33:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 16:39:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 16:58:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 17:03:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 17:55:18
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 18:05:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 18:09:47
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 18:23:10
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 19:26:28
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 19:32:56
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Sep 07, 2024 19:40:34
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 11:55:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 11:56:31
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:01:40
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:09:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:20:45
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'u1_asyn_fifo_4kx8' (VERI-1137) (D:\FPGA_learning\Q_Project_item\Ti60F225_AR0135_HDMI_1280x720_Dual\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\example_top.v:978)
+[EFX-0010 VERI-ERROR] 'full_flag' is an unknown type (VERI-1556) (D:\FPGA_learning\Q_Project_item\Ti60F225_AR0135_HDMI_1280x720_Dual\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\example_top.v:998)
+[EFX-0010 VERI-ERROR] 'full_flag' is not declared (VERI-1128) (D:\FPGA_learning\Q_Project_item\Ti60F225_AR0135_HDMI_1280x720_Dual\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\example_top.v:998)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (D:\FPGA_learning\Q_Project_item\Ti60F225_AR0135_HDMI_1280x720_Dual\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\example_top.v:1293)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:20:54
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:30:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:36:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:44:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:44:42
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 12:45:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 14:55:05
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] overwriting previous definition of module 'CMOS_Capture_RAW_Gray' (VERI-1206) (D:\FPGA_learning\Q_Project_item\Ti60F225_AR0135_HDMI_1280x720_Dual\V3.2_Ti60_AR0135_HDMI_Dual_1920x7080@60_Caputure\CMOS_Capture_RAW_Gray.v:189)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 14:56:24
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 09, 2024 15:42:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 21:38:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 21:42:03
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 25, 2024 22:13:19
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 13:22:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'i_clk_cmos' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:384)
+[EFX-0010 VERI-ERROR] cannot find port 'i_rst_n' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:385)
+[EFX-0010 VERI-ERROR] cannot find port 'i_cmos_pclk' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:386)
+[EFX-0010 VERI-ERROR] cannot find port 'i_cmos_vsync' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:387)
+[EFX-0010 VERI-ERROR] cannot find port 'i_cmos_href' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:388)
+[EFX-0010 VERI-ERROR] cannot find port 'i_cmos_data' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:389)
+[EFX-0010 VERI-ERROR] cannot find port 'o_cmos_xclk' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:391)
+[EFX-0010 VERI-ERROR] cannot find port 'o_cmos_frame_vsync' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:392)
+[EFX-0010 VERI-ERROR] cannot find port 'o_cmos_frame_href' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:393)
+[EFX-0010 VERI-ERROR] cannot find port 'o_cmos_frame_data' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:394)
+[EFX-0010 VERI-ERROR] cannot find port 'o_cmos_fps_rate' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:395)
+[EFX-0010 VERI-ERROR] cannot find port 'o_cmos_vsync_end' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:396)
+[EFX-0010 VERI-ERROR] cannot find port 'o_pixel_cnt' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:397)
+[EFX-0010 VERI-ERROR] cannot find port 'o_line_cnt' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:398)
+[EFX-0010 VERI-ERROR] cannot find port 'i_clk_cmos' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:404)
+[EFX-0010 VERI-ERROR] cannot find port 'i_rst_n' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:405)
+[EFX-0010 VERI-ERROR] cannot find port 'i_cmos_pclk' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:406)
+[EFX-0010 VERI-ERROR] cannot find port 'i_cmos_vsync' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:407)
+[EFX-0010 VERI-ERROR] cannot find port 'i_cmos_href' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:408)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Oct 26, 2024 13:25:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 20:03:04
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'FIFO_8_2048_FWFT' (VERI-1063) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:103)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 20:17:34
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'FIFO_8_2048_FWFT' (VERI-1063) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:103)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 20:19:32
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'rst' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:89)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_clk' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:90)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_clk' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:91)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_en' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:93)
+[EFX-0010 VERI-ERROR] cannot find port 'din' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:94)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_en' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:95)
+[EFX-0010 VERI-ERROR] cannot find port 'dout' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:96)
+[EFX-0010 VERI-ERROR] cannot find port 'full' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:98)
+[EFX-0010 VERI-ERROR] cannot find port 'empty' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:99)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_data_count' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:100)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_data_count' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:101)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_rst_busy' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:102)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_rst_busy' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:103)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 20:27:20
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] extra comma in port association list is not allowed (VERI-2523) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:97)
+[EFX-0010 VERI-ERROR] module 'DIP_Shift_Window' is ignored due to previous errors (VERI-1072) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\DIP_Shift_Window.sv:307)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 20:29:14
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'rst' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:81)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_clk' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:82)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_clk' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:83)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_en' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:85)
+[EFX-0010 VERI-ERROR] cannot find port 'din' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:86)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_en' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:87)
+[EFX-0010 VERI-ERROR] cannot find port 'dout' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:88)
+[EFX-0010 VERI-ERROR] cannot find port 'full' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:90)
+[EFX-0010 VERI-ERROR] cannot find port 'empty' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:91)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_data_count' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:92)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_data_count' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:93)
+[EFX-0010 VERI-ERROR] cannot find port 'wr_rst_busy' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:94)
+[EFX-0010 VERI-ERROR] cannot find port 'rd_rst_busy' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\BRIEF_WINDOW31_31_1.sv:95)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 21:46:13
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'Shift_RAM_1_1024' (VERI-1063) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\brief\Shift_Pixel.v:19)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:01:32
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:44:26
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] external reference 'image_vs' remains unresolved (VERI-1172) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\fast\CV_FAST_Top.sv:51)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:46:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'clka' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:116)
+[EFX-0010 VERI-ERROR] cannot find port 'ena' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:117)
+[EFX-0010 VERI-ERROR] cannot find port 'wea' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:118)
+[EFX-0010 VERI-ERROR] cannot find port 'addra' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:119)
+[EFX-0010 VERI-ERROR] cannot find port 'dina' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:120)
+[EFX-0010 VERI-ERROR] cannot find port 'clkb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:122)
+[EFX-0010 VERI-ERROR] cannot find port 'enb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:123)
+[EFX-0010 VERI-ERROR] cannot find port 'addrb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:124)
+[EFX-0010 VERI-ERROR] cannot find port 'doutb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:125)
+[EFX-0010 VERI-ERROR] cannot find port 'clka' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:130)
+[EFX-0010 VERI-ERROR] cannot find port 'ena' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:131)
+[EFX-0010 VERI-ERROR] cannot find port 'wea' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:132)
+[EFX-0010 VERI-ERROR] cannot find port 'addra' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:133)
+[EFX-0010 VERI-ERROR] cannot find port 'dina' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:134)
+[EFX-0010 VERI-ERROR] cannot find port 'clkb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:135)
+[EFX-0010 VERI-ERROR] cannot find port 'enb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:136)
+[EFX-0010 VERI-ERROR] cannot find port 'addrb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:137)
+[EFX-0010 VERI-ERROR] cannot find port 'doutb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:138)
+[EFX-0010 VERI-ERROR] cannot find port 'clka' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:208)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:51:56
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'wdata' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:130)
+[EFX-0010 VERI-ERROR] cannot find port 'enb' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:222)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:52:19
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot find port 'wdata' on this module (VERI-1010) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:130)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:52:58
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'o_orb_descriptor_0_length[15]' has multiple drivers. (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:30)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:55:38
+///////////////////////////////////
+
+[EFX-0202 ERROR] Net 'o_orb_descriptor_1_length[15]' has multiple drivers. (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Descriptor_Buffer.sv:40)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 22:56:00
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 05, 2024 23:04:05
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 06, 2024 12:29:53
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 08, 2024 23:13:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'wire' (VERI-1137) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:723)
+[EFX-0010 VERI-ERROR] SystemVerilog 2009 keyword 'wire' used in incorrect context (VERI-2344) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:723)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\example_top.v:1459)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 08, 2024 23:14:25
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] net 'o_match_location_en' is constantly driven from multiple places (VDB-1000) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Match_Descriptor.sv:40)
+[EFX-0010 VERI-ERROR] found another driver here (VDB-1001) (E:\Desktop\FPGA\Code\06-3_Ti60_Dual_MT9M001_HDMI_19201080\src\ORB\match\Match_Descriptor.sv:386)
+[EFX-0021 ERROR] Verific elaboration of module 'example_top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 08, 2024 23:15:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 08, 2024 23:19:11
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 08, 2024 23:21:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 13:07:07
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 22:58:39
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] syntax error near 'if' (VERI-1137) (E:\FPGA_img_process\mt9m001_update\example_top.v:668)
+[EFX-0010 VERI-ERROR] SystemVerilog 2009 keyword 'if' used in incorrect context (VERI-2344) (E:\FPGA_img_process\mt9m001_update\example_top.v:668)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (E:\FPGA_img_process\mt9m001_update\example_top.v:669)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (E:\FPGA_img_process\mt9m001_update\example_top.v:672)
+[EFX-0010 VERI-ERROR] syntax error near '<=' (VERI-1137) (E:\FPGA_img_process\mt9m001_update\example_top.v:674)
+[EFX-0010 VERI-ERROR] 'rstn_sys' is not a constant (VERI-1188) (E:\FPGA_img_process\mt9m001_update\example_top.v:668)
+[EFX-0010 VERI-ERROR] 'r_diff_x' is not a type (VERI-1281) (E:\FPGA_img_process\mt9m001_update\example_top.v:669)
+[EFX-0010 VERI-ERROR] 'cmos_vsync_end' is not a constant (VERI-1188) (E:\FPGA_img_process\mt9m001_update\example_top.v:671)
+[EFX-0010 VERI-ERROR] 'r_diff_x' is not a type (VERI-1281) (E:\FPGA_img_process\mt9m001_update\example_top.v:672)
+[EFX-0010 VERI-ERROR] 'r_diff_x' is not a type (VERI-1281) (E:\FPGA_img_process\mt9m001_update\example_top.v:674)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (E:\FPGA_img_process\mt9m001_update\example_top.v:1439)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 22:59:27
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'diff_x' is not declared (VERI-1128) (E:\FPGA_img_process\mt9m001_update\example_top.v:672)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (E:\FPGA_img_process\mt9m001_update\example_top.v:1439)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 23:05:03
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'IMAGE_YSIZE_TARGET' is not declared (VERI-1128) (E:\FPGA_img_process\mt9m001_update\src\Sensor_Image_XYCrop.v:134)
+[EFX-0010 VERI-ERROR] 'IMAGE_YSIZE_TARGET' is not declared (VERI-1128) (E:\FPGA_img_process\mt9m001_update\src\Sensor_Image_XYCrop.v:135)
+[EFX-0010 VERI-ERROR] module 'Sensor_Image_XYCrop' is ignored due to previous errors (VERI-1072) (E:\FPGA_img_process\mt9m001_update\src\Sensor_Image_XYCrop.v:150)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 23:07:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 09, 2024 23:24:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 00:29:48
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 00:34:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 00:46:26
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 01:36:36
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 09:46:20
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 10:11:15
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 10:21:49
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 14:02:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 23:08:29
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 23:15:35
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 23:35:02
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 10, 2024 23:48:46
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:01:55
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:11:59
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:21:23
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:29:25
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:38:41
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:50:14
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:55:53
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] 'Right_X_start' is not a constant (VERI-1188) (E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v:1077)
+[EFX-0010 VERI-ERROR] module 'example_top' is ignored due to previous errors (VERI-1072) (E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v:1470)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 00:56:38
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Nov 11, 2024 01:01:20
+///////////////////////////////////
+
