@@ -1,0 +1,464 @@
+clock {
+  name: "dsi_byteclk_i"
+  period: 23809
+  target_pin {
+    cell: "dsi_byteclk_i"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "dsi_txcclk_i"
+  period: 5952
+  rising_edge: 2232
+  falling_edge: 5208
+  target_pin {
+    cell: "dsi_txcclk_i"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "dsi_serclk_i"
+  period: 5952
+  rising_edge: 744
+  falling_edge: 3720
+  target_pin {
+    cell: "dsi_serclk_i"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "tdqss_clk"
+  period: 2604
+  target_pin {
+    cell: "tdqss_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "core_clk"
+  period: 5208
+  target_pin {
+    cell: "core_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "tac_clk"
+  period: 2604
+  target_pin {
+    cell: "tac_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "twd_clk"
+  period: 2604
+  rising_edge: 651
+  falling_edge: 1953
+  target_pin {
+    cell: "twd_clk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "clk_sys"
+  period: 10417
+  target_pin {
+    cell: "clk_sys"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "clk_pixel"
+  period: 13441
+  target_pin {
+    cell: "clk_pixel"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "clk_pixel_10x"
+  period: 1344
+  rising_edge: 336
+  falling_edge: 1008
+  target_pin {
+    cell: "clk_pixel_10x"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "clk_lvds_1x"
+  period: 20833
+  target_pin {
+    cell: "clk_lvds_1x"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "clk_lvds_7x"
+  period: 2976
+  rising_edge: 744
+  falling_edge: 2232
+  target_pin {
+    cell: "clk_lvds_7x"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "clk_27m"
+  period: 62500
+  target_pin {
+    cell: "clk_27m"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+clock {
+  name: "cmos_pclk"
+  period: 10000
+  target_pin {
+    cell: "cmos_pclk"
+    port: "INPAD"
+  }
+  origin: SDC
+  uncertainty {
+    value: 110
+    analysis: MAX
+  }
+  uncertainty {
+    value: 70
+    analysis: MIN
+  }
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tdqss_clk"
+    clock: "core_clk"
+    clock: "tac_clk"
+    clock: "twd_clk"
+  }
+  to {
+    clock: "cmos_pclk"
+    clock: "dsi_byteclk_i"
+    clock: "dsi_txcclk_i"
+    clock: "clk_pixel"
+    clock: "dsi_serclk_i"
+    clock: "clk_27m"
+    clock: "clk_sys"
+    clock: "clk_lvds_1x"
+    clock: "clk_pixel_10x"
+    clock: "clk_lvds_7x"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "cmos_pclk"
+    clock: "dsi_byteclk_i"
+    clock: "dsi_txcclk_i"
+    clock: "clk_pixel"
+    clock: "dsi_serclk_i"
+    clock: "clk_27m"
+    clock: "clk_sys"
+    clock: "clk_lvds_1x"
+    clock: "clk_pixel_10x"
+    clock: "clk_lvds_7x"
+  }
+  to {
+    clock: "tdqss_clk"
+    clock: "core_clk"
+    clock: "tac_clk"
+    clock: "twd_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "tac_clk"
+  }
+  to {
+    clock: "clk_sys"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "twd_clk"
+  }
+  to {
+    clock: "clk_sys"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_sys"
+  }
+  to {
+    clock: "tac_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_sys"
+  }
+  to {
+    clock: "twd_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "twd_clk"
+  }
+  to {
+    clock: "core_clk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_sys"
+  }
+  to {
+    clock: "clk_pixel"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_pixel"
+  }
+  to {
+    clock: "clk_sys"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_sys"
+  }
+  to {
+    clock: "cmos_pclk"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "cmos_pclk"
+  }
+  to {
+    clock: "clk_sys"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "dsi_byteclk_i"
+  }
+  to {
+    clock: "clk_lvds_1x"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_lvds_1x"
+  }
+  to {
+    clock: "dsi_byteclk_i"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "dsi_byteclk_i"
+  }
+  to {
+    clock: "clk_sys"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_sys"
+  }
+  to {
+    clock: "dsi_byteclk_i"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "dsi_byteclk_i"
+  }
+  to {
+    clock: "clk_pixel"
+  }
+  analysis: BOTH
+}
+exception {
+  type: FALSE_PATH
+  from {
+    clock: "clk_pixel"
+  }
+  to {
+    clock: "dsi_byteclk_i"
+  }
+  analysis: BOTH
+}
+exception {
+  type: BUDGET_OVERRIDE
+  from {
+    clock: "core_clk"
+  }
+  to {
+    clock: "clk_sys"
+  }
+  delay: 4500
+  analysis: MAX
+}
+exception {
+  type: BUDGET_OVERRIDE
+  from {
+    clock: "clk_sys"
+  }
+  to {
+    clock: "core_clk"
+  }
+  delay: 4500
+  analysis: MAX
+}
