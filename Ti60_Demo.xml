@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efx:project name="Ti60_Demo" description="" last_change="1731258275" sw_version="2023.2.307.5.10" last_run_state="pass" last_run_flow="bitstream" config_result_in_sync="sync" design_ood="sync" place_ood="sync" route_ood="sync" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+    <efx:device_info>
+        <efx:family name="Titanium"/>
+        <efx:device name="Ti60F225"/>
+        <efx:timing_model name="C4"/>
+    </efx:device_info>
+    <efx:design_info def_veri_version="sv_09" def_vhdl_version="vhdl_2008">
+        <efx:top_module name="example_top"/>
+        <efx:design_file name="example_top.v" version="default" library="default"/>
+        <efx:design_file name="src/ddr_rw_ctrl.v" version="default" library="default"/>
+        <efx:design_file name="src/cmos_i2c/i2c_timing_ctrl_16bit.v" version="default" library="default"/>
+        <efx:design_file name="src/cmos_i2c/I2C_MT9M001_Gray_Config.v" version="default" library="default"/>
+        <efx:design_file name="src/lcd_para.v" version="default" library="default"/>
+        <efx:design_file name="src/lcd_driver.v" version="default" library="default"/>
+        <efx:design_file name="src/hdmi_ip/hdmi_tx_ip.v" version="default" library="default"/>
+        <efx:design_file name="src/hdmi_ip/encode.v" version="default" library="default"/>
+        <efx:design_file name="src/hdmi_ip/serdes_4b_10to1.v" version="default" library="default"/>
+        <efx:design_file name="src/cmos_i2c/I2C_SC130GS_12801024_4Lanes_Config.v" version="default" library="default"/>
+        <efx:design_file name="src/PWMLite.v" version="default" library="default"/>
+        <efx:design_file name="src/lcd_display.v" version="default" library="default"/>
+        <efx:design_file name="src/dsi/dsi_init.v" version="default" library="default"/>
+        <efx:design_file name="src/Sensor_Image_XYCrop.v" version="default" library="default"/>
+        <efx:design_file name="src/cmos_i2c/i2c_timing_ctrl_reg16_dat16.v" version="default" library="default"/>
+        <efx:design_file name="src/cmos_i2c/I2C_AR0135_1280720_Config.v" version="default" library="default"/>
+        <efx:design_file name="src/axi/AXI4_AWARMux.v" version="default" library="default"/>
+        <efx:design_file name="src/lvds/LCDDual2LVDS.v" version="default" library="default"/>
+        <efx:design_file name="src/axi/axi4_ctrl.v" version="default" library="default"/>
+        <efx:design_file name="src/hdmi_ip/tmds_channel.v" version="default" library="default"/>
+        <efx:design_file name="src/hdmi_ip/rgb2dvi.v" version="default" library="default"/>
+        <efx:design_file name="src/FrameBoundCrop.v" version="default" library="default"/>
+        <efx:design_file name="CMOS_Capture_RAW_Gray.v" version="default" library="default"/>
+        <efx:design_file name="src/uart/precise_divider.v" version="default" library="default"/>
+        <efx:design_file name="src/uart/uart_receiver.v" version="default" library="default"/>
+        <efx:design_file name="src/uart/uart_transfer.v" version="default" library="default"/>
+        <efx:design_file name="src/uart/integer_divider.v" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/Interface_Image.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/DIP_DVP_Counter.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/FAST_NMS_Window_7_7.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/Interface_Window.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/DIP_Shift_Window.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/FAST_Weight.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/FAST_Top.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/Count_Continuous_Bit.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/fast/FAST_Compare_Neighbors.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/DVP_Counter.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/Shift_9_Line_6_Pixel.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/BRIEF_WINDOW31_31_1.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/Shift_Pixel.v" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/interface_image.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/ORB_BRIEF.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/interface_windows.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/BRIEF_Descriptor.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/brief/Shift_Line.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/match/Match_Descriptor.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/match/Get_Min.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/match/Descriptor_Buffer.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/match/Common_Delay.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/match/Count_256.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/match/Match_Distance.sv" version="default" library="default"/>
+        <efx:design_file name="src/ORB/match/Count_16.sv" version="default" library="default"/>
+        <efx:top_vhdl_arch name=""/>
+    </efx:design_info>
+    <efx:constraint_info>
+        <efx:sdc_file name="Ti60_Demo.pt.sdc"/>
+        <efx:inter_file name=""/>
+    </efx:constraint_info>
+    <efx:sim_info/>
+    <efx:misc_info/>
+    <efx:ip_info>
+        <efx:ip instance_name="W0_FIFO" path="ip/W0_FIFO/settings.json">
+            <efx:ip_src_file name="W0_FIFO.v"/>
+        </efx:ip>
+        <efx:ip instance_name="R0_FIFO" path="ip/R0_FIFO/settings.json">
+            <efx:ip_src_file name="R0_FIFO.v"/>
+        </efx:ip>
+        <efx:ip instance_name="dsi_tx" path="ip/dsi_tx/settings.json">
+            <efx:ip_src_file name="dsi_tx.sv"/>
+        </efx:ip>
+        <efx:ip instance_name="csi_rx" path="ip/csi_rx/settings.json">
+            <efx:ip_src_file name="csi_rx.sv"/>
+        </efx:ip>
+        <efx:ip instance_name="DdrCtrl" path="ip/DdrCtrl/settings.json">
+            <efx:ip_src_file name="DdrCtrl.v"/>
+        </efx:ip>
+        <efx:ip instance_name="W0_FIFO_8" path="ip/W0_FIFO_8/settings.json">
+            <efx:ip_src_file name="W0_FIFO_8.v"/>
+        </efx:ip>
+        <efx:ip instance_name="W0_FIFO_64" path="ip/W0_FIFO_64/settings.json">
+            <efx:ip_src_file name="W0_FIFO_64.v"/>
+        </efx:ip>
+        <efx:ip instance_name="FIFO_W48R24" path="ip/FIFO_W48R24/settings.json">
+            <efx:ip_src_file name="FIFO_W48R24.v"/>
+        </efx:ip>
+        <efx:ip instance_name="R0_FIFO_8" path="ip/R0_FIFO_8/settings.json">
+            <efx:ip_src_file name="R0_FIFO_8.v"/>
+        </efx:ip>
+        <efx:ip instance_name="R0_FIFO_16" path="ip/R0_FIFO_16/settings.json">
+            <efx:ip_src_file name="R0_FIFO_16.v"/>
+        </efx:ip>
+        <efx:ip instance_name="W0_FIFO_32" path="ip/W0_FIFO_32/settings.json">
+            <efx:ip_src_file name="W0_FIFO_32.v"/>
+        </efx:ip>
+        <efx:ip instance_name="asyn_fifo_4kx8" path="ip/asyn_fifo_4kx8/settings.json">
+            <efx:ip_src_file name="asyn_fifo_4kx8.v"/>
+        </efx:ip>
+        <efx:ip instance_name="FIFO_8_2048_FWFT" path="ip/FIFO_8_2048_FWFT/settings.json">
+            <efx:ip_src_file name="FIFO_8_2048_FWFT.v"/>
+        </efx:ip>
+        <efx:ip instance_name="Shift_RAM_1_1024" path="ip/Shift_RAM_1_1024/settings.json">
+            <efx:ip_src_file name="Shift_RAM_1_1024.v"/>
+        </efx:ip>
+        <efx:ip instance_name="RAM_256_256_2048" path="ip/RAM_256_256_2048/settings.json">
+            <efx:ip_src_file name="RAM_256_256_2048.v"/>
+        </efx:ip>
+        <efx:ip instance_name="RAM_32_32_2048" path="ip/RAM_32_32_2048/settings.json">
+            <efx:ip_src_file name="RAM_32_32_2048.v"/>
+        </efx:ip>
+    </efx:ip_info>
+    <efx:synthesis tool_name="efx_map">
+        <efx:param name="work_dir" value="work_syn" value_type="e_string"/>
+        <efx:param name="write_efx_verilog" value="on" value_type="e_bool"/>
+        <efx:param name="mode" value="speed" value_type="e_option"/>
+        <efx:param name="max_ram" value="-1" value_type="e_integer"/>
+        <efx:param name="max_mult" value="-1" value_type="e_integer"/>
+        <efx:param name="infer-clk-enable" value="3" value_type="e_option"/>
+        <efx:param name="infer-sync-set-reset" value="1" value_type="e_option"/>
+        <efx:param name="fanout-limit" value="0" value_type="e_integer"/>
+        <efx:param name="seq_opt" value="0" value_type="e_option"/>
+        <efx:param name="retiming" value="0" value_type="e_option"/>
+        <efx:param name="dsp-mac-packing" value="1" value_type="e_option"/>
+        <efx:param name="dsp-input-regs-packing" value="1" value_type="e_option"/>
+        <efx:param name="dsp-output-regs-packing" value="1" value_type="e_option"/>
+        <efx:param name="bram_output_regs_packing" value="1" value_type="e_option"/>
+        <efx:param name="blast_const_operand_adders" value="1" value_type="e_option"/>
+        <efx:param name="operator-sharing" value="0" value_type="e_option"/>
+        <efx:param name="optimize-adder-tree" value="0" value_type="e_option"/>
+        <efx:param name="pack-luts-to-comb4" value="0" value_type="e_option"/>
+        <efx:param name="min-sr-fanout" value="0" value_type="e_integer"/>
+        <efx:param name="min-ce-fanout" value="0" value_type="e_integer"/>
+        <efx:param name="seq-opt-sync-only" value="0" value_type="e_option"/>
+        <efx:param name="blackbox-error" value="1" value_type="e_option"/>
+        <efx:param name="allow-const-ram-index" value="0" value_type="e_option"/>
+        <efx:param name="hdl-compile-unit" value="1" value_type="e_option"/>
+        <efx:param name="create-onehot-fsms" value="0" value_type="e_option"/>
+        <efx:param name="mult-decomp-retime" value="0" value_type="e_option"/>
+        <efx:param name="optimize-zero-init-rom" value="1" value_type="e_option"/>
+        <efx:param name="insert-carry-skip" value="0" value_type="e_option"/>
+        <efx:param name="mult-auto-pipeline" value="0" value_type="e_option"/>
+        <efx:param name="use-logic-for-small-mem" value="64" value_type="e_integer"/>
+        <efx:param name="use-logic-for-small-rom" value="64" value_type="e_integer"/>
+        <efx:param name="include" value="ip/W0_FIFO" value_type="e_string"/>
+        <efx:param name="include" value="ip/R0_FIFO" value_type="e_string"/>
+        <efx:param name="include" value="ip/dsi_tx" value_type="e_string"/>
+        <efx:param name="include" value="ip/csi_rx" value_type="e_string"/>
+        <efx:param name="include" value="ip/DdrCtrl" value_type="e_string"/>
+        <efx:param name="include" value="ip/W0_FIFO_8" value_type="e_string"/>
+        <efx:param name="include" value="ip/W0_FIFO_64" value_type="e_string"/>
+        <efx:param name="include" value="ip/FIFO_W48R24" value_type="e_string"/>
+        <efx:param name="include" value="ip/R0_FIFO_8" value_type="e_string"/>
+        <efx:param name="include" value="ip/R0_FIFO_16" value_type="e_string"/>
+        <efx:param name="include" value="ip/W0_FIFO_32" value_type="e_string"/>
+        <efx:param name="include" value="ip/asyn_fifo_4kx8" value_type="e_string"/>
+        <efx:param name="include" value="ip/FIFO_8_2048_FWFT" value_type="e_string"/>
+        <efx:param name="include" value="ip/Shift_RAM_1_1024" value_type="e_string"/>
+        <efx:param name="include" value="ip/RAM_256_256_2048" value_type="e_string"/>
+        <efx:param name="include" value="ip/RAM_32_32_2048" value_type="e_string"/>
+    </efx:synthesis>
+    <efx:place_and_route tool_name="efx_pnr">
+        <efx:param name="work_dir" value="work_pnr" value_type="e_string"/>
+        <efx:param name="verbose" value="off" value_type="e_bool"/>
+        <efx:param name="load_delaym" value="on" value_type="e_bool"/>
+        <efx:param name="optimization_level" value="TIMING_1" value_type="e_option"/>
+        <efx:param name="seed" value="1" value_type="e_integer"/>
+        <efx:param name="placer_effort_level" value="1" value_type="e_option"/>
+        <efx:param name="max_threads" value="2" value_type="e_integer"/>
+        <efx:param name="beneficial_skew" value="on" value_type="e_option"/>
+        <efx:param name="print_critical_path" value="10" value_type="e_integer"/>
+    </efx:place_and_route>
+    <efx:bitstream_generation tool_name="efx_pgm">
+        <efx:param name="mode" value="active" value_type="e_option"/>
+        <efx:param name="width" value="4" value_type="e_option"/>
+        <efx:param name="cold_boot" value="off" value_type="e_bool"/>
+        <efx:param name="cascade" value="off" value_type="e_option"/>
+        <efx:param name="enable_roms" value="on" value_type="e_option"/>
+        <efx:param name="spi_low_power_mode" value="off" value_type="e_bool"/>
+        <efx:param name="io_weak_pullup" value="on" value_type="e_bool"/>
+        <efx:param name="oscillator_clock_divider" value="DIV2" value_type="e_option"/>
+        <efx:param name="enable_crc_check" value="on" value_type="e_bool"/>
+        <efx:param name="bitstream_compression" value="on" value_type="e_bool"/>
+        <efx:param name="active_capture_clk_edge" value="negedge" value_type="e_option"/>
+        <efx:param name="release_tri_then_reset" value="on" value_type="e_bool"/>
+        <efx:param name="enable_external_master_clock" value="off" value_type="e_bool"/>
+        <efx:param name="jtag_usercode" value="0xFFFFFFFF" value_type="e_string"/>
+        <efx:param name="generate_bit" value="on" value_type="e_bool"/>
+        <efx:param name="generate_bitbin" value="on" value_type="e_bool"/>
+        <efx:param name="generate_hex" value="on" value_type="e_bool"/>
+        <efx:param name="generate_hexbin" value="on" value_type="e_bool"/>
+        <efx:param name="four_byte_addressing" value="off" value_type="e_bool"/>
+    </efx:bitstream_generation>
+    <efx:debugger>
+        <efx:param name="work_dir" value="work_dbg" value_type="e_string"/>
+        <efx:param name="auto_instantiation" value="off" value_type="e_bool"/>
+        <efx:param name="profile" value="debug_profile.wizard.json" value_type="e_string"/>
+    </efx:debugger>
+    <efx:security>
+        <efx:param name="enable_bitstream_encrypt" value="off" value_type="e_bool"/>
+        <efx:param name="enable_bitstream_auth" value="off" value_type="e_bool"/>
+        <efx:param name="encryption_key_file" value="NONE" value_type="e_string"/>
+        <efx:param name="auth_key_file" value="NONE" value_type="e_string"/>
+        <efx:param name="randomize_iv_value" value="off" value_type="e_bool"/>
+        <efx:param name="iv_value" value="" value_type="e_string"/>
+    </efx:security>
+</efx:project>

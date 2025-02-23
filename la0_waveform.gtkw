@@ -1,0 +1,14 @@
+[dumpfile] "C:\Users\User\AppData\Local\Temp\tmpxdhtmz0p\tmp_continous.vcd"
+[dumpfile_mtime] "Wed Oct 09 07:10:18 2024"
+[dumpfile_size] 48424
+[savefile] "D:\FPGA_learning\Q_Project_item\Ti60F225_AR0135_HDMI_1280x720_Dual\V3.2_Ti60_AR0135_HDMI_Dual_1920x7080@60_Caputure\la0_waveform.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*0.000000 c 2048 6144 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[signals_width] 126
+[sst_expanded] 1
+@22
+top.r_cmos_vsync
+top.r_cmos_href
+top.r_cmos_data[7:0]
