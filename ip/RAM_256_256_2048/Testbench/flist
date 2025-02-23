@@ -1,0 +1,15 @@
+RAM_256_256_2048.v
+efx_ram_5k.v
+efx_ram10.v
+efx_dpram10.v
+efx_dpram_5k.v
+signal_gen_sp.v
+signal_gen_sprom.v
+signal_gen_sdp.v
+signal_gen_tdp.v
+tdp_test_pattern.v
+dp_test_pattern_rom.v
+monitor_sp.v
+monitor_sdp.v
+monitor_tdp.v
+
