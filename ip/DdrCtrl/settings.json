@@ -1,0 +1,84 @@
+{
+    "args": [
+        "-o",
+        "DdrCtrl",
+        "--base_path",
+        "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory_controller",
+            "name": "efx_ddr3_soft_controller",
+            "version": "5.7.1"
+        }
+    ],
+    "conf": {
+        "data_width": "1",
+        "freq": "384",
+        "col": "10",
+        "row": "16",
+        "bank": "3",
+        "burst_length": "8",
+        "read_burst_type": "1'b0",
+        "cas_latency": "5",
+        "dll_reset": "1",
+        "precharge_pd": "1'b1",
+        "dll_enable": "1'b1",
+        "output_drive_strength": "1'b0",
+        "al": "0",
+        "qoff": "1'b1",
+        "rtt": "3",
+        "asr": "1'b0",
+        "srt": "1'b0",
+        "dynamic_odt": "0",
+        "mpr_rf": "0",
+        "mpr": "1'b0",
+        "tREFI": "7800",
+        "arbiter_init": "1",
+        "arbiter_count": "4",
+        "write_leveling": "1'b0",
+        "tdqs": "1'b0",
+        "DDR3_DATA_RATE": "1",
+        "DDR3_MODE": "2",
+        "READ_ENABLE_PIPELINE": "7"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\DdrCtrl_define.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\DdrCtrl_tmpl.vhd",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\DdrCtrl_tmpl.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\DdrCtrl.v"
+        ],
+        "external_example_example": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Ti180J484_devkit\\constraint.sdc",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Ti180J484_devkit\\memory_checker_axi.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Ti180J484_devkit\\example_top.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Ti180J484_devkit\\DdrCtrl.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Ti180J484_devkit\\DdrCtrl_define.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Ti180J484_devkit\\ti180_ddr3_controller.xml",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Ti180J484_devkit\\ti180_ddr3_controller.peri.xml"
+        ],
+        "external_script_generator": [],
+        "external_testbench_modelsim": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\modelsim\\DdrCtrl.v"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\ddr3.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\efx_ddr3_soft_controller_tb.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\efx_iddr.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\efx_oddr.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\4096Mb_ddr3_parameters.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\efx_srl8.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\modelsim.do",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\memory_checker_axi.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\example_top.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\ddr3_device_ID.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\ddr3_controller.bin",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\ddr3_controller.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\DdrCtrl.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpvyjjcc4e\\ip\\DdrCtrl\\Testbench\\DdrCtrl_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-25T13:37:49.918284"
+}
