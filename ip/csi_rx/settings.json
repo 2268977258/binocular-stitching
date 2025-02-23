@@ -1,0 +1,96 @@
+{
+    "args": [
+        "-o",
+        "csi_rx",
+        "--base_path",
+        "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "mipi",
+            "name": "efx_csi2_rx",
+            "version": "5.3.1"
+        }
+    ],
+    "conf": {
+        "tLPX_NS": "50",
+        "tINIT_NS": "1000",
+        "tCLK_TERM_EN_NS": "38",
+        "tD_TERM_EN_NS": "35",
+        "tHS_SETTLE_NS": "85",
+        "tHS_PREPARE_ZERO_NS": "145",
+        "NUM_DATA_LANE": "4",
+        "ASYNC_STAGE": "2",
+        "HS_BYTECLK_MHZ": "187",
+        "CLOCK_FREQ_MHZ": "50",
+        "DPHY_CLOCK_MODE": "\"Discontinuous\"",
+        "PIXEL_FIFO_DEPTH": "1024",
+        "AREGISTER": "8",
+        "ENABLE_USER_DESKEWCAL": "1'b0",
+        "Pack_40": "1'b1",
+        "Pack_48": "1'b1",
+        "Pack_56": "1'b1",
+        "Pack_64": "1'b1",
+        "FRAME_MODE": "\"GENERIC\"",
+        "ENABLE_VCX": "1'b0"
+    },
+    "output": {
+        "external_source_source": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\csi_rx_define.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\csi_rx_tmpl.vhd",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\csi_rx_tmpl.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\csi_rx.sv"
+        ],
+        "external_example_example": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\data_unpack.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\datatype_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\dual_clock_fifo.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\pattern_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\shift_reg.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\simple_dual_port_ram.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\vga_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\reset.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\top.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\efx_csi2_tx.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\mipi.sdc",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\pattern_gen2.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\lfsr.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\csi_rx.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\csi_rx_define.vh",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\top.xml",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Ti60F225_devkit\\top.peri.xml"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\data_unpack.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\datatype_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\dual_clock_fifo.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\pattern_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\shift_reg.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\simple_dual_port_ram.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\vga_gen.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\reset.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\TI60_MIPI_csi_tb.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\TI60_MIPI_csi_rx_modelsim.do",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\rx_filelist.f",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\top.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\efx_csi2_tx_modelsim.sv",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\pattern_gen2.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\lfsr.v",
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\csi_rx_define.vh"
+        ],
+        "external_testbench_modelsim": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\modelsim\\csi_rx.sv"
+        ],
+        "external_testbench_ncsim": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\ncsim\\csi_rx.sv"
+        ],
+        "external_testbench_synopsys": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\synopsys\\csi_rx.sv"
+        ],
+        "external_testbench_aldec": [
+            "C:\\Users\\Lizimu\\AppData\\Local\\Temp\\tmpfoqviym9\\ip\\csi_rx\\Testbench\\aldec\\csi_rx.sv"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-25T13:37:46.374531"
+}

@@ -1,0 +1,10 @@
+./data_unpack.v
+./datatype_gen.v
+./dual_clock_fifo.v
+./pattern_gen.v
+./pattern_gen2.v
+./lfsr.v
+./shift_reg.v
+./simple_dual_port_ram.v
+./vga_gen.v
+./efx_csi2_tx_modelsim.sv

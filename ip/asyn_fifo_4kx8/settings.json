@@ -1,0 +1,72 @@
+{
+    "args": [
+        "-o",
+        "asyn_fifo_4kx8",
+        "--base_path",
+        "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "memory",
+            "name": "efx_fifo_top",
+            "version": "5.1"
+        }
+    ],
+    "conf": {
+        "SYNC_CLK": "0",
+        "SYNC_STAGE": "2",
+        "DEPTH_2": "14",
+        "DATA_WIDTH": "8",
+        "MODE": "\"FWFT\"",
+        "OUTPUT_REG": "0",
+        "PROG_FULL_ASSERT": "128",
+        "PROGRAMMABLE_FULL": "\"STATIC_SINGLE\"",
+        "PFN_INTERNAL": "127",
+        "PEA_INTERNAL": "2",
+        "PEN_INTERNAL": "3",
+        "PROGRAMMABLE_EMPTY": "\"NONE\"",
+        "OPTIONAL_FLAGS": "1",
+        "PIPELINE_REG": "1",
+        "FAMILY": "\"TITANIUM\"",
+        "ASYM_WIDTH_RATIO": "4",
+        "BYPASS_RESET_SYNC": "0",
+        "ENDIANESS": "0"
+    },
+    "output": {
+        "external_source_source": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\asyn_fifo_4kx8_tmpl.vhd",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\asyn_fifo_4kx8_define.vh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\asyn_fifo_4kx8.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\asyn_fifo_4kx8_tmpl.v"
+        ],
+        "external_example_example": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\T20F256_devkit\\fifo_demo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\T20F256_devkit\\fifo_demo_T20.sdc",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\T20F256_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\T20F256_devkit\\asyn_fifo_4kx8.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\T20F256_devkit\\asyn_fifo_4kx8_define.vh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\T20F256_devkit\\fifo_demo.peri.xml",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\T20F256_devkit\\fifo_demo.xml"
+        ],
+        "external_example_2": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Ti60F225_devkit\\fifo_demo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Ti60F225_devkit\\fifo_demo_Ti60.sdc",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Ti60F225_devkit\\efx_symmetric_width_fifo_top.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Ti60F225_devkit\\asyn_fifo_4kx8.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Ti60F225_devkit\\asyn_fifo_4kx8_define.vh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Ti60F225_devkit\\fifo_demo.peri.xml",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Ti60F225_devkit\\fifo_demo.xml"
+        ],
+        "external_testbench_testbench": [
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Testbench\\fifo_tb.sv",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Testbench\\xrun.sh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Testbench\\msim.sh",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Testbench\\flist",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Testbench\\modelsim.do",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Testbench\\asyn_fifo_4kx8.v",
+            "D:\\FPGA_learning\\Q_Project_item\\Ti60F225_AR0135_HDMI_1280x720_Dual\\V3_Ti60_AR0135_HDMI_Dual_1920x7080@60\\ip\\asyn_fifo_4kx8\\Testbench\\asyn_fifo_4kx8_define.vh"
+        ]
+    },
+    "sw_version": "2023.2.307",
+    "generated_date": "2024-10-09T04:35:59.480157"
+}
