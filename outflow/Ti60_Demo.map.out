@@ -1,0 +1,1515 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.2.307.5.10
+[EFX-0000 INFO] Compiled: May 19 2024.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+
+INFO: Read project database "E:/Desktop/FPGA/work/mt9m001_update(2)/Ti60_Demo.xml"
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "E:/Desktop/FPGA/work/mt9m001_update(2)/Ti60_Demo.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "C:/Efinity/2023.2/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(845): INFO: undeclared symbol 'clk_code', assumed default net type 'wire' (VERI-2561)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ddr_rw_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\cmos_i2c\i2c_timing_ctrl_16bit.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\cmos_i2c\I2C_MT9M001_Gray_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_para.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v(37): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src/lcd_para.v' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v(37): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v(155): WARNING: parameter 'fill_h_range' becomes localparam in 'lcd_driver' with formal parameter declaration list (VERI-1199)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v(156): WARNING: parameter 'fill_v_range' becomes localparam in 'lcd_driver' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\hdmi_tx_ip.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\encode.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\serdes_4b_10to1.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\cmos_i2c\I2C_SC130GS_12801024_4Lanes_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\PWMLite.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_display.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_display.v(48): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src/lcd_para.v' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_display.v(48): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_display.v' (VERI-2320)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\dsi\dsi_init.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\Sensor_Image_XYCrop.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\Sensor_Image_XYCrop.v(37): WARNING: initial value of parameter 'IMAGE_HSIZE_TARGET_LEFT' is omitted (VERI-1818)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\Sensor_Image_XYCrop.v(38): WARNING: initial value of parameter 'IMAGE_HSIZE_TARGET_RIGHT' is omitted (VERI-1818)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\cmos_i2c\i2c_timing_ctrl_reg16_dat16.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\cmos_i2c\I2C_AR0135_1280720_Config.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\AXI4_AWARMux.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\lvds\LCDDual2LVDS.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\tmds_channel.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\tmds_channel.v(16): WARNING: non-net output port 'tmds' cannot be initialized at declaration in SystemVerilog mode (VERI-2522)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\FrameBoundCrop.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\CMOS_Capture_RAW_Gray.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\uart\precise_divider.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\uart\uart_receiver.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\uart\uart_transfer.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\uart\integer_divider.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\Interface_Image.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_DVP_Counter.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_NMS_Window_7_7.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\Interface_Window.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_Weight.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_Top.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\Count_Continuous_Bit.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_Compare_Neighbors.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\DVP_Counter.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\Shift_9_Line_6_Pixel.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\Shift_Pixel.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\interface_image.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\ORB_BRIEF.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\interface_windows.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_Descriptor.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\Shift_Line.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Match_Descriptor.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Get_Min.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Descriptor_Buffer.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Common_Delay.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Count_256.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Match_Distance.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Count_16.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO\W0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO\R0_FIFO.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\dsi_tx\dsi_tx.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\csi_rx\csi_rx.sv' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(266): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(266): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: undeclared symbol '**', assumed default net type '**' (VERI-2561)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(581): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(581): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(1575): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(1575): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(1829): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(1829): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(2132): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(2132): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(2582): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl/ddr3_controller.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(2582): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v' (VERI-2320)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_64\W0_FIFO_64.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_W48R24\FIFO_W48R24.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_16\R0_FIFO_16.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_32\W0_FIFO_32.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(753): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024/bram_ini.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(753): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(980): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024/bram_decompose.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(980): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_e482185b92f0406aa9f563e1e5b753ba' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(755): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048/bram_ini.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(755): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(982): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048/bram_decompose.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(982): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_588ef270905341b4b03e1d9376e26e0c' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v' (VERI-1482)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(755): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048/bram_ini.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(755): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(982): INFO: analyzing included file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048/bram_decompose.vh' (VERI-1328)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(982): INFO: back to file 'E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v' (VERI-2320)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048/bram_decompose.vh(4): WARNING: parameter 'DECOMPOSE_WRITE_MODE' becomes localparam in 'bram_wrapper_mwm_02333b0b4f434f4190195c0201988ad4' with formal parameter declaration list (VERI-1199)
+INFO: Analysis took 0.611471 seconds.
+INFO: 	Analysis took 0.09375 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.708 MB, end = 74.696 MB, delta = 18.988 MB
+INFO: 	Analysis peak virtual memory usage = 74.696 MB
+INFO: Analysis resident set memory usage: begin = 59.332 MB, end = 80.024 MB, delta = 20.692 MB
+INFO: 	Analysis peak resident set memory usage = 80.024 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(614): WARNING: port 'cal_fail_log' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(853): WARNING: port 'o_fast_position_done' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(863): WARNING: port 'o_fast_position_done' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1381): WARNING: port 'axi_awid' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1408): WARNING: port 'lcd_xpos' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1466): WARNING: port 'TMDS_Clk_p' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(6): INFO: compiling module 'example_top' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(445): WARNING: expression size 32 truncated to fit in target size 1 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(182): WARNING: port 'wr_busy' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(182): WARNING: port 'wr_data' is not connected on this instance (VERI-2435)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(49): INFO: compiling module 'DdrCtrl' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(1830): INFO: compiling module 'efx_ddr3_soft_controller_df90192d804f4368a8d673b8aee86950' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: port '**' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(2902): INFO: compiling module 'efx_fifo_top_df90192d804f4368a8d673b8aee86950_renamed_due_excessive_length_1' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3194): INFO: compiling module 'efx_fifo_ram_df90192d804f4368a8d673b8aee86950(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3231): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3680): INFO: compiling module 'efx_fifo_ctl_df90192d804f4368a8d673b8aee86950(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3956): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3957): WARNING: expression size 32 truncated to fit in target size 7 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(4076): INFO: compiling module 'efx_fifo_bin2gray_df90192d804f4368a8d673b8aee86950(WIDTH=7)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3601): INFO: compiling module 'efx_fifo_datasync_df90192d804f4368a8d673b8aee86950(STAGE=2,WIDTH=7)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=7)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=6)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=4)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=3)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(3516): INFO: compiling module 'efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=2)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: actual bit length ** differs from formal bit length *** for port '**' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: extracting RAM for identifier '**' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: expression size ** truncated to fit in target size ** (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: net '**' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: input port '**' remains unconnected for this instance (VDB-1053)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): WARNING: input port '**' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(0): INFO: compiling module '**' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v(116): WARNING: input port 'wr_data[127]' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(581): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_aid' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(588): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_wid' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(597): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_bid' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(603): WARNING: actual bit length 4 differs from formal bit length 8 for port 'axi_rid' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\AXI4_AWARMux.v(11): INFO: compiling module 'AXI4_AWARMux(AID_LEN=4)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\AXI4_AWARMux.v(90): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(678): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(679): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\PWMLite.v(10): INFO: compiling module 'PWMLite' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\PWMLite.v(22): WARNING: expression size 8 truncated to fit in target size 7 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\CMOS_Capture_RAW_Gray.v(25): INFO: compiling module 'CMOS_Capture_RAW_Gray(CMOS_FRAME_WAITCNT=2,CMOS_PCLK_FREQ=74250000)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_Top.sv(14): INFO: compiling module 'FAST_Top' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(19): INFO: compiling module 'DIP_Shift_Window(Pra_Window_Size=7,i_image=Interface_Image(Pra_Width=8)_I_Image,o_window=Interface_Window(Pra_Width=8)_O_Window)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_DVP_Counter.sv(15): INFO: compiling module 'DIP_DVP_Counter' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(49): INFO: compiling module 'FIFO_8_2048_FWFT' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(390): INFO: compiling module 'efx_fifo_top_585f819e8c894b31a90a2f87bc1d55ce_renamed_due_excessive_length_2' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(682): INFO: compiling module 'efx_fifo_ram_585f819e8c894b31a90a2f87bc1d55ce(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=2048,RD_DEPTH=1024,RDATA_WIDTH=16,WADDR_WIDTH=11,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=2)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(1000): INFO: compiling module 'efx_fifo_ctl_585f819e8c894b31a90a2f87bc1d55ce_renamed_due_excessive_length_3' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(1276): WARNING: expression size 32 truncated to fit in target size 12 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(1277): WARNING: expression size 32 truncated to fit in target size 11 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(301): INFO: compiling module 'efx_fifo_bin2gray_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(130): INFO: compiling module 'efx_fifo_datasync_585f819e8c894b31a90a2f87bc1d55ce(STAGE=2,WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=10)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=9)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=8)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=7)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=6)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=4)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=3)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=2)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(301): INFO: compiling module 'efx_fifo_bin2gray_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=12)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(130): INFO: compiling module 'efx_fifo_datasync_585f819e8c894b31a90a2f87bc1d55ce(STAGE=2,WIDTH=12)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(213): INFO: compiling module 'efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=12)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(104): WARNING: actual bit length 11 differs from formal bit length 12 for port 'wr_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(107): WARNING: actual bit length 10 differs from formal bit length 11 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(92): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(92): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(92): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(92): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(92): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(92): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_Compare_Neighbors.sv(14): INFO: compiling module 'FAST_Compare_Neighbors(Pra_Threshold_Value=10,i_window=Interface_Window(Pra_Width=8)_I_Window,o_image=Interface_Image(Pra_Width=8)_O_Image)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\Count_Continuous_Bit.sv(17): INFO: compiling module 'Count_Continuous_Bit' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\Count_Continuous_Bit.sv(29): WARNING: using initial value of 'Marker' since it is never assigned (VERI-1220)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_Weight.sv(14): INFO: compiling module 'FAST_Weight(i_window=Interface_Window(Pra_Width=8)_I_Window,o_image=Interface_Image(Pra_Width=16)_O_Image)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(19): INFO: compiling module 'DIP_Shift_Window(Pra_Value_Width=16,Pra_Window_Size=7,i_image=Interface_Image(Pra_Width=16)_I_Image,o_window=Interface_Window(Pra_Width=16)_O_Window)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(90): WARNING: actual bit length 16 differs from formal bit length 8 for port 'wdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(90): WARNING: actual bit length 16 differs from formal bit length 8 for port 'wdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(90): WARNING: actual bit length 16 differs from formal bit length 8 for port 'wdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(90): WARNING: actual bit length 16 differs from formal bit length 8 for port 'wdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(90): WARNING: actual bit length 16 differs from formal bit length 8 for port 'wdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\DIP_Shift_Window.sv(90): WARNING: actual bit length 16 differs from formal bit length 8 for port 'wdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\FAST_NMS_Window_7_7.sv(14): INFO: compiling module 'FAST_NMS_Window_7_7(i_window=Interface_Window(Pra_Width=16)_I_Window,o_image=Interface_Image(Pra_Width=8)_O_Image)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\fast\Interface_Image.sv(17): WARNING: net 'Interface_Image_In.image_en' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_Descriptor.sv(1): INFO: compiling module 'BRIEF_Descriptor' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\DVP_Counter.sv(1): INFO: compiling module 'DVP_Counter' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(5): INFO: compiling module 'BRIEF_WINDOW31_31_1(i_image=interface_image(Pra_Width=8)_i_image,o_window=interface_windows(Pra_Width=8)_o_window)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(54): WARNING: using initial value of 'FIFO_Reset' since it is never assigned (VERI-1220)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(86): WARNING: actual bit length 8 differs from formal bit length 16 for port 'rdata' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(90): WARNING: actual bit length 11 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_WINDOW31_31_1.sv(47): WARNING: net 'Flag_Line_Ready[30]' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\ORB_BRIEF.sv(1): INFO: compiling module 'ORB_BRIEF(i_window=interface_windows(Pra_Width=8)_i_window)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\Shift_9_Line_6_Pixel.sv(1): INFO: compiling module 'Shift_9_Line_6_Pixel' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\Shift_Pixel.v(1): INFO: compiling module 'Shift_Pixel(Pra_Depth=6)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(134): WARNING: port 'wdata_b' is not connected on this instance (VERI-2435)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(134): WARNING: port 'rdata_b' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(49): INFO: compiling module 'Shift_RAM_1_1024' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(138): INFO: compiling module 'efx_bram_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_4' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(1606): INFO: compiling module 'efx_single_port_ram_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_5' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(924): INFO: compiling module 'bram_wrapper_mwm_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_6' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(1352): WARNING: expression size 10 truncated to fit in target size 1 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(648): INFO: compiling module 'bram_primitive_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_7' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10(WCLK_POLARITY=1,WCLKE_POLARITY=1,WADDREN_POLARITY=1,RCLK_POLARITY=1,RE_POLARITY=1,RST_POLARITY=1,RADDREN_POLARITY=1,READ_WIDTH=10,WRITE_WIDTH=10,OUTPUT_REG=0)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(127): WARNING: input port 'wdata_b[0]' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\Shift_RAM_1_1024\Shift_RAM_1_1024.v(127): WARNING: input port 'wclke' remains unconnected for this instance (VDB-1053)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\Shift_Line.sv(1): INFO: compiling module 'Shift_Line' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\Shift_Line.sv(14): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_Descriptor.sv(93): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_Descriptor.sv(94): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\BRIEF_Descriptor.sv(109): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\brief\interface_image.sv(4): WARNING: net 'Interface_Image_Original_In.image_en' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(892): WARNING: actual bit length 1 differs from formal bit length 288 for port 'o_orb_descriptor_value' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(909): WARNING: actual bit length 1 differs from formal bit length 288 for port 'o_orb_descriptor_value' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Descriptor_Buffer.sv(15): INFO: compiling module 'Descriptor_Buffer' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Descriptor_Buffer.sv(69): WARNING: expression size 13 truncated to fit in target size 12 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(136): WARNING: port 'wdata_b' is not connected on this instance (VERI-2435)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(136): WARNING: port 'rdata_a' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(49): INFO: compiling module 'RAM_256_256_2048' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(140): INFO: compiling module 'efx_bram_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_8' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(1608): INFO: compiling module 'efx_simple_dual_port_ram_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_9' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(926): INFO: compiling module 'bram_wrapper_mwm_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_10' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_11' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10(WCLK_POLARITY=1,WCLKE_POLARITY=1,WADDREN_POLARITY=1,RCLK_POLARITY=1,RE_POLARITY=1,RST_POLARITY=1,RADDREN_POLARITY=1,READ_WIDTH=5,WRITE_WIDTH=5,OUTPUT_REG=0)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_12' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_13' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_14' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_15' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_16' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_17' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_18' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_19' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_20' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_21' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_22' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_23' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_24' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_25' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_26' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_27' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_28' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_29' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_30' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_31' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_32' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_33' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_34' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_35' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_36' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_37' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_38' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_39' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_40' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_41' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_42' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_43' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_44' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_45' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_46' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_47' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_48' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_49' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_50' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_51' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_52' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_53' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_54' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_55' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_56' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_57' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_58' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_59' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_60' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_61' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(1354): WARNING: expression size 5 truncated to fit in target size 1 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(650): INFO: compiling module 'bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_62' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(128): WARNING: input port 'wdata_b[255]' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_256_256_2048\RAM_256_256_2048.v(128): WARNING: input port 'wclke' remains unconnected for this instance (VDB-1053)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(136): WARNING: port 'wdata_b' is not connected on this instance (VERI-2435)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(136): WARNING: port 'rdata_a' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(49): INFO: compiling module 'RAM_32_32_2048' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(140): INFO: compiling module 'efx_bram_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_63' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(1608): INFO: compiling module 'efx_simple_dual_port_ram_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_64' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(926): INFO: compiling module 'bram_wrapper_mwm_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_65' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(650): INFO: compiling module 'bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_66' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(650): INFO: compiling module 'bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_67' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(650): INFO: compiling module 'bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_68' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(650): INFO: compiling module 'bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_69' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(650): INFO: compiling module 'bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_70' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(650): INFO: compiling module 'bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_71' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(1354): WARNING: expression size 5 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(650): INFO: compiling module 'bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_72' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(128): WARNING: input port 'wdata_b[31]' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\RAM_32_32_2048\RAM_32_32_2048.v(128): WARNING: input port 'wclke' remains unconnected for this instance (VDB-1053)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Descriptor_Buffer.sv(158): WARNING: expression size 13 truncated to fit in target size 12 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(941): WARNING: actual bit length 1 differs from formal bit length 288 for port 'i_orb_descriptor_0_value' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(945): WARNING: actual bit length 1 differs from formal bit length 288 for port 'i_orb_descriptor_1_value' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Match_Descriptor.sv(1): INFO: compiling module 'Match_Descriptor' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Match_Descriptor.sv(39): WARNING: expression size 16 truncated to fit in target size 3 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Match_Descriptor.sv(202): WARNING: expression size 17 truncated to fit in target size 16 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Match_Descriptor.sv(206): WARNING: expression size 17 truncated to fit in target size 16 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Match_Distance.sv(4): INFO: compiling module 'Match_Distance' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Count_256.sv(4): INFO: compiling module 'Count_256' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Count_16.sv(4): INFO: compiling module 'Count_16' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Common_Delay.sv(6): INFO: compiling module 'Common_Delay' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\ORB\match\Get_Min.sv(6): INFO: compiling module 'Get_Min' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1014): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1037): WARNING: expression size 16 truncated to fit in target size 1 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\Sensor_Image_XYCrop.v(32): INFO: compiling module 'Sensor_Image_XYCrop(IMAGE_HSIZE_TARGET_LEFT=160,IMAGE_HSIZE_TARGET_RIGHT=1120)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\Sensor_Image_XYCrop.v(32): INFO: compiling module 'Sensor_Image_XYCrop(IMAGE_HSIZE_TARGET_LEFT=593,IMAGE_HSIZE_TARGET_RIGHT=1120)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(49): INFO: compiling module 'asyn_fifo_4kx8' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(390): INFO: compiling module 'efx_fifo_top_d66cb55aca88488c9873fdc922a75a1e_renamed_due_excessive_length_73' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(682): INFO: compiling module 'efx_fifo_ram_d66cb55aca88488c9873fdc922a75a1e(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=16384,RD_DEPTH=16384,WADDR_WIDTH=14,RADDR_WIDTH=14,OUTPUT_REG=0,RAM_MUX_RATIO=1)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(1000): INFO: compiling module 'efx_fifo_ctl_d66cb55aca88488c9873fdc922a75a1e_renamed_due_excessive_length_74' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(1276): WARNING: expression size 32 truncated to fit in target size 15 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(1277): WARNING: expression size 32 truncated to fit in target size 15 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(301): INFO: compiling module 'efx_fifo_bin2gray_d66cb55aca88488c9873fdc922a75a1e(WIDTH=15)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(130): INFO: compiling module 'efx_fifo_datasync_d66cb55aca88488c9873fdc922a75a1e(STAGE=2,WIDTH=15)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=15)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=14)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=13)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=12)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=10)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=9)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=8)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=7)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=6)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=4)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=3)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(213): INFO: compiling module 'efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=2)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(104): WARNING: actual bit length 14 differs from formal bit length 15 for port 'wr_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(107): WARNING: actual bit length 14 differs from formal bit length 15 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1125): WARNING: actual bit length 12 differs from formal bit length 14 for port 'wr_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1128): WARNING: actual bit length 12 differs from formal bit length 14 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1152): WARNING: actual bit length 12 differs from formal bit length 14 for port 'wr_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1155): WARNING: actual bit length 12 differs from formal bit length 14 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1201): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1214): WARNING: expression size 14 truncated to fit in target size 13 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1217): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1244): WARNING: expression size 784 truncated to fit in target size 783 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\uart\integer_divider.v(31): INFO: compiling module 'integer_divider(DEVIDE_CNT=52)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\uart\uart_receiver.v(34): INFO: compiling module 'uart_receiver' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1283): WARNING: actual bit length 16 differs from formal bit length 8 for port 'rxd_data' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\uart\uart_transfer.v(34): INFO: compiling module 'uart_transfer' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1300): WARNING: actual bit length 32 differs from formal bit length 1 for port 'txd_en' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(2): INFO: compiling module 'axi4_ctrl(C_ID_LEN=4,C_RD_END_ADDR=1382400,C_W_WIDTH=8)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(91): WARNING: expression size 32 truncated to fit in target size 16 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(113): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(114): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(196): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(238): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(257): WARNING: expression size 23 truncated to fit in target size 22 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(49): INFO: compiling module 'W0_FIFO_8' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(390): INFO: compiling module 'efx_fifo_top_cfeed6c9bd394ec8aec0af4f2f286661_renamed_due_excessive_length_75' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(682): INFO: compiling module 'efx_fifo_ram_cfeed6c9bd394ec8aec0af4f2f286661(MODE="FWFT",WR_DEPTH=8192,RDATA_WIDTH=128,WADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=16)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(1000): INFO: compiling module 'efx_fifo_ctl_cfeed6c9bd394ec8aec0af4f2f286661_renamed_due_excessive_length_76' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(1276): WARNING: expression size 32 truncated to fit in target size 14 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(1277): WARNING: expression size 32 truncated to fit in target size 10 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(301): INFO: compiling module 'efx_fifo_bin2gray_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=10)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(130): INFO: compiling module 'efx_fifo_datasync_cfeed6c9bd394ec8aec0af4f2f286661(STAGE=3,WIDTH=10)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=10)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=9)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=8)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=7)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=6)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=4)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=3)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=2)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(301): INFO: compiling module 'efx_fifo_bin2gray_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=14)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(130): INFO: compiling module 'efx_fifo_datasync_cfeed6c9bd394ec8aec0af4f2f286661(STAGE=3,WIDTH=14)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=14)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=13)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=12)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(104): WARNING: actual bit length 13 differs from formal bit length 14 for port 'wr_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(107): WARNING: actual bit length 9 differs from formal bit length 10 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(109): WARNING: port 'a_wr_rst_i' remains unconnected for this instance (VERI-1927)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(49): INFO: compiling module 'R0_FIFO_8' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(390): INFO: compiling module 'efx_fifo_top_567a6004e493495294beda4e48350f8b_renamed_due_excessive_length_77' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(682): INFO: compiling module 'efx_fifo_ram_567a6004e493495294beda4e48350f8b(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=1024,RD_DEPTH=16384,WDATA_WIDTH=128,WADDR_WIDTH=10,RADDR_WIDTH=14,OUTPUT_REG=0,RAM_MUX_RATIO=16)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(719): INFO: extracting RAM for identifier 'ram' (VERI-2571)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(1000): INFO: compiling module 'efx_fifo_ctl_567a6004e493495294beda4e48350f8b_renamed_due_excessive_length_78' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(1270): WARNING: expression size 32 truncated to fit in target size 11 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(1271): WARNING: expression size 32 truncated to fit in target size 15 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(301): INFO: compiling module 'efx_fifo_bin2gray_567a6004e493495294beda4e48350f8b(WIDTH=15)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(130): INFO: compiling module 'efx_fifo_datasync_567a6004e493495294beda4e48350f8b(STAGE=3,WIDTH=15)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=15)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=14)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=13)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=12)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=10)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=9)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=8)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=7)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=6)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=4)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=3)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(213): INFO: compiling module 'efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=2)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(301): INFO: compiling module 'efx_fifo_bin2gray_567a6004e493495294beda4e48350f8b(WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(130): INFO: compiling module 'efx_fifo_datasync_567a6004e493495294beda4e48350f8b(STAGE=3,WIDTH=11)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(104): WARNING: actual bit length 10 differs from formal bit length 11 for port 'wr_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(107): WARNING: actual bit length 14 differs from formal bit length 15 for port 'rd_datacount_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v(89): WARNING: input port 'a_wr_rst_i' is not connected on this instance (VDB-1013)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(449): WARNING: expression size 17 truncated to fit in target size 16 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\axi\axi4_ctrl.v(559): WARNING: expression size 23 truncated to fit in target size 22 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1352): WARNING: actual bit length 32 differs from formal bit length 4 for port 'axi_bid' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1353): WARNING: actual bit length 32 differs from formal bit length 2 for port 'axi_bresp' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1354): WARNING: actual bit length 32 differs from formal bit length 1 for port 'axi_bvalid' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1364): WARNING: actual bit length 32 differs from formal bit length 2 for port 'axi_rresp' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1378): WARNING: actual bit length 16 differs from formal bit length 8 for port 'rframe_data' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1380): WARNING: actual bit length 8 differs from formal bit length 32 for port 'tp_o' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1382): WARNING: expression size 8 truncated to fit in target size 4 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v(39): INFO: compiling module 'lcd_driver' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\lcd_driver.v(164): WARNING: expression size 14 truncated to fit in target size 12 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\FrameBoundCrop.v(6): INFO: compiling module 'FrameBoundCrop(SKIP_ROWS=2,SKIP_COLS=0)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\FrameBoundCrop.v(44): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\FrameBoundCrop.v(45): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\FrameBoundCrop.v(46): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\FrameBoundCrop.v(53): WARNING: expression size 13 truncated to fit in target size 12 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\FrameBoundCrop.v(61): WARNING: expression size 13 truncated to fit in target size 12 (VERI-1209)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v(7): INFO: compiling module 'rgb2dvi(ENABLE_OSERDES=0)' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\tmds_channel.v(4): INFO: compiling module 'tmds_channel' (VERI-1018)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v(50): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v(52): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v(58): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v(60): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v(66): WARNING: actual bit length 32 differs from formal bit length 4 for port 'data_island_data' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\src\hdmi_ip\rgb2dvi.v(68): WARNING: actual bit length 4 differs from formal bit length 3 for port 'mode' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1448): WARNING: actual bit length 32 differs from formal bit length 1 for port 'oe_i' (VERI-1330)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(430): WARNING: net 'w_dev_index_o[7]' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(431): WARNING: net 'w_dev_cmd_o[7]' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(432): WARNING: net 'w_dev_wdata_o[31]' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(433): WARNING: net 'w_dev_wvalid_o' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(437): WARNING: net 'w_spi_ssn_o' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(438): WARNING: net 'w_spi_data_o[3]' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(455): WARNING: net 'w_lcd_b_o[7]' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(845): WARNING: net 'clk_code' does not have a driver (VDB-1002)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(795): WARNING: input port 'clk_cmos' remains unconnected for this instance (VDB-1053)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(816): WARNING: input port 'clk_cmos' remains unconnected for this instance (VDB-1053)
+E:\Desktop\FPGA\work\mt9m001_update(2)\example_top.v(1444): WARNING: input port 'SerialClk' is not connected on this instance (VDB-1013)
+INFO: Elaboration took 1.48342 seconds.
+INFO: 	Elaboration took 0.453125 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 74.696 MB, end = 183.512 MB, delta = 108.816 MB
+INFO: 	Elaboration peak virtual memory usage = 183.512 MB
+INFO: Elaboration resident set memory usage: begin = 80.036 MB, end = 186.104 MB, delta = 106.068 MB
+INFO: 	Elaboration peak resident set memory usage = 186.104 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(65): INFO: compiling module 'EFX_MULT' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(100): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(156): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(209): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(262): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(322): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(394): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(499): INFO: compiling module 'RAMB5' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(561): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(653): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(754): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+C:/Efinity/2023.2/sim_models/maplib/efinix_maplib.v(884): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0231229 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 185.544 MB, end = 173.92 MB, delta = -11.624 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 196.384 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 188.388 MB, end = 176.316 MB, delta = -12.072 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 198.332 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0256 WARNING] The primary output port 'csi_ctl0_o' wire 'csi_ctl0_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_ctl1_o' wire 'csi_ctl1_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_scl_o' wire 'csi_scl_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_scl_oe' wire 'csi_scl_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_sda_o' wire 'csi_sda_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_sda_oe' wire 'csi_sda_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxc_hs_en_o' wire 'csi_rxc_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxc_hs_term_en_o' wire 'csi_rxc_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_rst_o' wire 'csi_rxd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_hs_en_o' wire 'csi_rxd0_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd0_hs_term_en_o' wire 'csi_rxd0_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_rst_o' wire 'csi_rxd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_hs_en_o' wire 'csi_rxd1_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd1_hs_term_en_o' wire 'csi_rxd1_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_rst_o' wire 'csi_rxd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_hs_en_o' wire 'csi_rxd2_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd2_hs_term_en_o' wire 'csi_rxd2_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_rst_o' wire 'csi_rxd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_hs_en_o' wire 'csi_rxd3_hs_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'csi_rxd3_hs_term_en_o' wire 'csi_rxd3_hs_term_en_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_rst_o' wire 'dsi_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_oe' wire 'dsi_txc_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_p_o' wire 'dsi_txc_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_oe' wire 'dsi_txc_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_lp_n_o' wire 'dsi_txc_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_oe' wire 'dsi_txc_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[7]' wire 'dsi_txc_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[6]' wire 'dsi_txc_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[5]' wire 'dsi_txc_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[4]' wire 'dsi_txc_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[3]' wire 'dsi_txc_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[2]' wire 'dsi_txc_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[1]' wire 'dsi_txc_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txc_hs_o[0]' wire 'dsi_txc_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_rst_o' wire 'dsi_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_oe' wire 'dsi_txd0_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[7]' wire 'dsi_txd0_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[6]' wire 'dsi_txd0_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[5]' wire 'dsi_txd0_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[4]' wire 'dsi_txd0_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[3]' wire 'dsi_txd0_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[2]' wire 'dsi_txd0_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[1]' wire 'dsi_txd0_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_hs_o[0]' wire 'dsi_txd0_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_oe' wire 'dsi_txd0_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_p_o' wire 'dsi_txd0_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_oe' wire 'dsi_txd0_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd0_lp_n_o' wire 'dsi_txd0_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_rst_o' wire 'dsi_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_oe' wire 'dsi_txd1_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_p_o' wire 'dsi_txd1_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_oe' wire 'dsi_txd1_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_lp_n_o' wire 'dsi_txd1_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_oe' wire 'dsi_txd1_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[7]' wire 'dsi_txd1_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[6]' wire 'dsi_txd1_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[5]' wire 'dsi_txd1_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[4]' wire 'dsi_txd1_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[3]' wire 'dsi_txd1_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[2]' wire 'dsi_txd1_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[1]' wire 'dsi_txd1_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd1_hs_o[0]' wire 'dsi_txd1_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_rst_o' wire 'dsi_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_oe' wire 'dsi_txd2_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_p_o' wire 'dsi_txd2_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_oe' wire 'dsi_txd2_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_lp_n_o' wire 'dsi_txd2_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_oe' wire 'dsi_txd2_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[7]' wire 'dsi_txd2_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[6]' wire 'dsi_txd2_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[5]' wire 'dsi_txd2_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[4]' wire 'dsi_txd2_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[3]' wire 'dsi_txd2_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[2]' wire 'dsi_txd2_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[1]' wire 'dsi_txd2_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd2_hs_o[0]' wire 'dsi_txd2_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_rst_o' wire 'dsi_txd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_oe' wire 'dsi_txd3_lp_p_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_p_o' wire 'dsi_txd3_lp_p_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_oe' wire 'dsi_txd3_lp_n_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_lp_n_o' wire 'dsi_txd3_lp_n_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_oe' wire 'dsi_txd3_hs_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[7]' wire 'dsi_txd3_hs_o[7]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[6]' wire 'dsi_txd3_hs_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[5]' wire 'dsi_txd3_hs_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[4]' wire 'dsi_txd3_hs_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[3]' wire 'dsi_txd3_hs_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[2]' wire 'dsi_txd3_hs_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[1]' wire 'dsi_txd3_hs_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'dsi_txd3_hs_o[0]' wire 'dsi_txd3_hs_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'led_o[4]' wire 'led_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sclk' wire 'cmos_sclk' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sdat_OUT' wire 'cmos_sdat_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos_sdat_OE' wire 'cmos_sdat_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos2_sclk' wire 'cmos2_sclk' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos2_sdat_OUT' wire 'cmos2_sdat_OUT' is not driven.
+[EFX-0256 WARNING] The primary output port 'cmos2_sdat_OE' wire 'cmos2_sdat_OE' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_oe' wire 'lvds_txc_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[6]' wire 'lvds_txc_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[5]' wire 'lvds_txc_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[4]' wire 'lvds_txc_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[3]' wire 'lvds_txc_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[2]' wire 'lvds_txc_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[1]' wire 'lvds_txc_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_o[0]' wire 'lvds_txc_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txc_rst_o' wire 'lvds_txc_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_oe' wire 'lvds_txd0_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[6]' wire 'lvds_txd0_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[5]' wire 'lvds_txd0_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[4]' wire 'lvds_txd0_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[3]' wire 'lvds_txd0_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[2]' wire 'lvds_txd0_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[1]' wire 'lvds_txd0_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_o[0]' wire 'lvds_txd0_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd0_rst_o' wire 'lvds_txd0_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_oe' wire 'lvds_txd1_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[6]' wire 'lvds_txd1_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[5]' wire 'lvds_txd1_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[4]' wire 'lvds_txd1_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[3]' wire 'lvds_txd1_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[2]' wire 'lvds_txd1_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[1]' wire 'lvds_txd1_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_o[0]' wire 'lvds_txd1_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd1_rst_o' wire 'lvds_txd1_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_oe' wire 'lvds_txd2_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[6]' wire 'lvds_txd2_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[5]' wire 'lvds_txd2_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[4]' wire 'lvds_txd2_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[3]' wire 'lvds_txd2_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[2]' wire 'lvds_txd2_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[1]' wire 'lvds_txd2_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_o[0]' wire 'lvds_txd2_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd2_rst_o' wire 'lvds_txd2_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_oe' wire 'lvds_txd3_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[6]' wire 'lvds_txd3_o[6]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[5]' wire 'lvds_txd3_o[5]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[4]' wire 'lvds_txd3_o[4]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[3]' wire 'lvds_txd3_o[3]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[2]' wire 'lvds_txd3_o[2]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[1]' wire 'lvds_txd3_o[1]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_o[0]' wire 'lvds_txd3_o[0]' is not driven.
+[EFX-0256 WARNING] The primary output port 'lvds_txd3_rst_o' wire 'lvds_txd3_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_sda_o' wire 'lcd_tp_sda_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_sda_oe' wire 'lcd_tp_sda_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_scl_o' wire 'lcd_tp_scl_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_scl_oe' wire 'lcd_tp_scl_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_int_o' wire 'lcd_tp_int_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_int_oe' wire 'lcd_tp_int_oe' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_tp_rst_o' wire 'lcd_tp_rst_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_pwm_o' wire 'lcd_pwm_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_blen_o' wire 'lcd_blen_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_vs_o' wire 'lcd_vs_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_hs_o' wire 'lcd_hs_o' is not driven.
+[EFX-0256 WARNING] The primary output port 'lcd_de_o' wire 'lcd_de_o' is not driven.
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][7]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][6]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][5]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][4]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][3]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][2]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][1]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][0]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[7]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[6]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[5]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[4]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[3]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[2]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[1]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Out[0]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][31]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][30]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][29]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] Removing redundant signal : Shift_Q7_Out[4][28]. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wclk=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[0]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[1]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[2]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[3]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[4]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[5]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[6]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[7]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[8]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[9]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[10]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[11]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[12]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[13]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[14]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[15]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[16]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[17]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[18]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[19]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[20]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[21]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[22]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[23]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[24]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[25]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[26]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[27]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[28]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[29]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[30]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[31]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[32]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[33]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[34]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[35]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[36]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[37]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[38]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[39]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[40]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[41]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[42]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[43]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[44]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[45]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[46]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[47]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[48]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[49]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[50]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[51]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[52]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[53]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[54]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[55]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[56]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[57]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[58]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[59]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[60]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[61]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[62]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[63]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[64]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[65]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[66]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[67]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[68]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[69]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[70]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (wdata[71]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[0]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[1]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[2]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[3]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[4]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[5]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[6]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[7]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (waddr[8]=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (we=0).
+[EFX-0266 WARNING] Module Instance 'map_ram' input pin tied to constant (re=1).
+[EFX-0266 WARNING] Module Instance 'fifo_rdpush' input pin tied to constant (io_push_payload[0]=1).
+[EFX-0266 WARNING] Module Instance 'fifo_rdpush' input pin tied to constant (io_pop_ready=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'fifo_rd.a_rst_i'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'fifo_rd.clk_i'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0266 WARNING] Module Instance 'fifo_ack' input pin tied to constant (io_pop_ready=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'w_ar_fifo_rd_vaild'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'w_aw_fifo_rd_vaild'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0266 WARNING] Module Instance 'mux0' input pin tied to constant (b_rd_en=1).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[0]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[1]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[2]=1).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[3]=0).
+[EFX-0266 WARNING] Module Instance 'phase_u0' input pin tied to constant (pll_sel[4]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[2]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[3]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[4]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[5]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[6]=0).
+[EFX-0266 WARNING] Module Instance 'inst_arburst_fifo' input pin tied to constant (I_Wr_Data[7]=0).
+[EFX-0266 WARNING] Module Instance 'u_wr_addr_fifo' input pin tied to constant (I_Wr_Data[42]=0).
+[EFX-0266 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[127]'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[126]'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[125]'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[124]'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[123]'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'u_efx_ddr3_soft_controller.wr_data[122]'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:116)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:3231)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\DdrCtrl\DdrCtrl.v:0)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\FIFO_8_2048_FWFT\FIFO_8_2048_FWFT.v:719)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\asyn_fifo_4kx8\asyn_fifo_4kx8.v:719)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\W0_FIFO_8\W0_FIFO_8.v:719)
+[EFX-0677 INFO] ... Zero initialization of uninitialized memory block 'ram'. (E:\Desktop\FPGA\work\mt9m001_update(2)\ip\R0_FIFO_8\R0_FIFO_8.v:719)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "example_top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=8,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=8,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_df90192d804f4368a8d673b8aee86950(DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_df90192d804f4368a8d673b8aee86950(DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=48,DATA_DEPTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Ddr_Ctrl_Sc_Fifo_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=48,DATA_DEPTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "native_mux_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_df90192d804f4368a8d673b8aee86950(OUT_RST_ACTIVE="LOW",CYCLE=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_df90192d804f4368a8d673b8aee86950(OUT_RST_ACTIVE="LOW",CYCLE=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_df90192d804f4368a8d673b8aee86950(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_df90192d804f4368a8d673b8aee86950(NUM_RST=4,CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_df90192d804f4368a8d673b8aee86950(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_df90192d804f4368a8d673b8aee86950(CYCLE=4,IN_RST_ACTIVE=4'b0,OUT_RST_ACTIVE=4'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "buffercc_1_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=32)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=32)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=144)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=144)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_df90192d804f4368a8d673b8aee86950(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_df90192d804f4368a8d673b8aee86950(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=64,RD_DEPTH=64,WDATA_WIDTH=128,RDATA_WIDTH=128,WADDR_WIDTH=6,RADDR_WIDTH=6,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_df90192d804f4368a8d673b8aee86950(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_df90192d804f4368a8d673b8aee86950(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_df90192d804f4368a8d673b8aee86950(STAGE=2,WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_df90192d804f4368a8d673b8aee86950(STAGE=2,WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_df90192d804f4368a8d673b8aee86950(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_df90192d804f4368a8d673b8aee86950(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_df90192d804f4368a8d673b8aee86950(FAMILY="TITANIUM",SYNC_CLK=0,MODE="FWFT",WR_DEPTH=64,WADDR_WIDTH=6,RADDR_WIDTH=6,PROG_FULL_ASSERT=33,PROG_FULL_NEGATE=33,PROG_EMPTY_NEGATE=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_df90192d804f4368a8d673b8aee86950_renamed_due_excessive_length_1" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_df90192d804f4368a8d673b8aee86950_renamed_due_excessive_length_1" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=52)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "streamfifocc64_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=52)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "user_dual_port_ram_df90192d804f4368a8d673b8aee86950(DATA_WIDTH=72,OUTPUT_REG="FALSE",RAM_INIT_FILE="ddr3_controller.bin")" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ddr_3_controller_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "controller_top_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_df90192d804f4368a8d673b8aee86950(OUT_RST_ACTIVE="LOW",CYCLE=5)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_sub_df90192d804f4368a8d673b8aee86950(OUT_RST_ACTIVE="LOW",CYCLE=5)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_df90192d804f4368a8d673b8aee86950(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "reset_ctrl_df90192d804f4368a8d673b8aee86950(NUM_RST=2,CYCLE=5,IN_RST_ACTIVE=2'b0,OUT_RST_ACTIVE=2'b0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "phase_shift_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top_df90192d804f4368a8d673b8aee86950" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_axi_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_df90192d804f4368a8d673b8aee86950" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_ddr3_soft_controller_df90192d804f4368a8d673b8aee86950" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrCtrl" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DdrCtrl" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AXI4_AWARMux(AID_LEN=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "AXI4_AWARMux(AID_LEN=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMLite" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "PWMLite" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CMOS_Capture_RAW_Gray(CMOS_FRAME_WAITCNT=2,CMOS_PCLK_FREQ=74250000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "CMOS_Capture_RAW_Gray(CMOS_FRAME_WAITCNT=2,CMOS_PCLK_FREQ=74250000)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DIP_DVP_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DIP_DVP_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_585f819e8c894b31a90a2f87bc1d55ce(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=2048,RD_DEPTH=1024,RDATA_WIDTH=16,WADDR_WIDTH=11,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_585f819e8c894b31a90a2f87bc1d55ce(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=2048,RD_DEPTH=1024,RDATA_WIDTH=16,WADDR_WIDTH=11,RADDR_WIDTH=10,OUTPUT_REG=0,RAM_MUX_RATIO=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_585f819e8c894b31a90a2f87bc1d55ce(STAGE=2,WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_585f819e8c894b31a90a2f87bc1d55ce(STAGE=2,WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_585f819e8c894b31a90a2f87bc1d55ce(STAGE=2,WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_585f819e8c894b31a90a2f87bc1d55ce(STAGE=2,WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_585f819e8c894b31a90a2f87bc1d55ce(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_585f819e8c894b31a90a2f87bc1d55ce_renamed_due_excessive_length_3" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_585f819e8c894b31a90a2f87bc1d55ce_renamed_due_excessive_length_3" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_585f819e8c894b31a90a2f87bc1d55ce_renamed_due_excessive_length_2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_585f819e8c894b31a90a2f87bc1d55ce_renamed_due_excessive_length_2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FIFO_8_2048_FWFT" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FIFO_8_2048_FWFT" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DIP_Shift_Window(Pra_Window_Size=7,i_image=Interface_Image(Pra_Width=8)_I_Image,o_window=Interface_Window(Pra_Width=8)_O_Window)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DIP_Shift_Window(Pra_Window_Size=7,i_image=Interface_Image(Pra_Width=8)_I_Image,o_window=Interface_Window(Pra_Width=8)_O_Window)" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Count_Continuous_Bit" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Count_Continuous_Bit" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_Compare_Neighbors(Pra_Threshold_Value=10,i_window=Interface_Window(Pra_Width=8)_I_Window,o_image=Interface_Image(Pra_Width=8)_O_Image)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_Compare_Neighbors(Pra_Threshold_Value=10,i_window=Interface_Window(Pra_Width=8)_I_Window,o_image=Interface_Image(Pra_Width=8)_O_Image)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_Weight(i_window=Interface_Window(Pra_Width=8)_I_Window,o_image=Interface_Image(Pra_Width=16)_O_Image)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_Weight(i_window=Interface_Window(Pra_Width=8)_I_Window,o_image=Interface_Image(Pra_Width=16)_O_Image)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DIP_Shift_Window(Pra_Value_Width=16,Pra_Window_Size=7,i_image=Interface_Image(Pra_Width=16)_I_Image,o_window=Interface_Window(Pra_Width=16)_O_Window)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DIP_Shift_Window(Pra_Value_Width=16,Pra_Window_Size=7,i_image=Interface_Image(Pra_Width=16)_I_Image,o_window=Interface_Window(Pra_Width=16)_O_Window)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_NMS_Window_7_7(i_window=Interface_Window(Pra_Width=16)_I_Window,o_image=Interface_Image(Pra_Width=8)_O_Image)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_NMS_Window_7_7(i_window=Interface_Window(Pra_Width=16)_I_Window,o_image=Interface_Image(Pra_Width=8)_O_Image)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_Top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FAST_Top" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DVP_Counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "DVP_Counter" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRIEF_WINDOW31_31_1(i_image=interface_image(Pra_Width=8)_i_image,o_window=interface_windows(Pra_Width=8)_o_window)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRIEF_WINDOW31_31_1(i_image=interface_image(Pra_Width=8)_i_image,o_window=interface_windows(Pra_Width=8)_o_window)" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ORB_BRIEF(i_window=interface_windows(Pra_Width=8)_i_window)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ORB_BRIEF(i_window=interface_windows(Pra_Width=8)_i_window)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_7" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_7" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_6" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_6" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_single_port_ram_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_5" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_single_port_ram_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_5" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_4" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_e482185b92f0406aa9f563e1e5b753ba_renamed_due_excessive_length_4" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_RAM_1_1024" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_RAM_1_1024" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_Pixel(Pra_Depth=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_Pixel(Pra_Depth=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_Line" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_Line" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_9_Line_6_Pixel" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Shift_9_Line_6_Pixel" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRIEF_Descriptor" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "BRIEF_Descriptor" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_11" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_11" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_12" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_12" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_13" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_13" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_14" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_14" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_15" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_15" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_16" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_16" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_17" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_17" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_18" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_18" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_19" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_19" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_20" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_20" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_21" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_21" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_22" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_22" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_23" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_23" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_24" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_24" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_25" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_25" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_26" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_26" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_27" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_27" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_28" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_28" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_29" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_29" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_30" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_30" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_31" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_31" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_33" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_33" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_34" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_34" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_35" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_35" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_36" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_36" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_37" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_37" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_38" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_38" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_39" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_39" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_40" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_40" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_41" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_41" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_42" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_42" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_43" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_43" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_44" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_44" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_45" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_45" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_46" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_46" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_47" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_47" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_48" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_48" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_49" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_49" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_50" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_50" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_51" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_51" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_52" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_52" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_53" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_53" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_54" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_54" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_55" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_55" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_56" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_56" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_57" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_57" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_58" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_58" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_59" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_59" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_60" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_60" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_61" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_61" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_62" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_62" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_10" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_10" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_9" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_9" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_588ef270905341b4b03e1d9376e26e0c_renamed_due_excessive_length_8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RAM_256_256_2048" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RAM_256_256_2048" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_66" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_66" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_67" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_67" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_68" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_68" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_69" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_69" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_70" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_70" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_71" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_71" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_72" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_primitive_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_72" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_65" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "bram_wrapper_mwm_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_65" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_64" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_simple_dual_port_ram_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_64" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_63" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_bram_02333b0b4f434f4190195c0201988ad4_renamed_due_excessive_length_63" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RAM_32_32_2048" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "RAM_32_32_2048" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Descriptor_Buffer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Descriptor_Buffer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Count_16" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Count_16" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Count_256" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Count_256" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Match_Distance" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Match_Distance" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Common_Delay" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Common_Delay" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Get_Min" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Get_Min" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Match_Descriptor" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Match_Descriptor" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Sensor_Image_XYCrop(IMAGE_HSIZE_TARGET_LEFT=160,IMAGE_HSIZE_TARGET_RIGHT=1120)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Sensor_Image_XYCrop(IMAGE_HSIZE_TARGET_LEFT=160,IMAGE_HSIZE_TARGET_RIGHT=1120)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Sensor_Image_XYCrop(IMAGE_HSIZE_TARGET_LEFT=593,IMAGE_HSIZE_TARGET_RIGHT=1120)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "Sensor_Image_XYCrop(IMAGE_HSIZE_TARGET_LEFT=593,IMAGE_HSIZE_TARGET_RIGHT=1120)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_d66cb55aca88488c9873fdc922a75a1e(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=16384,RD_DEPTH=16384,WADDR_WIDTH=14,RADDR_WIDTH=14,OUTPUT_REG=0,RAM_MUX_RATIO=1)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_d66cb55aca88488c9873fdc922a75a1e(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=16384,RD_DEPTH=16384,WADDR_WIDTH=14,RADDR_WIDTH=14,OUTPUT_REG=0,RAM_MUX_RATIO=1)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_d66cb55aca88488c9873fdc922a75a1e(WIDTH=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_d66cb55aca88488c9873fdc922a75a1e(WIDTH=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_d66cb55aca88488c9873fdc922a75a1e(STAGE=2,WIDTH=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_d66cb55aca88488c9873fdc922a75a1e(STAGE=2,WIDTH=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_d66cb55aca88488c9873fdc922a75a1e(WIDTH=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_d66cb55aca88488c9873fdc922a75a1e_renamed_due_excessive_length_74" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_d66cb55aca88488c9873fdc922a75a1e_renamed_due_excessive_length_74" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_d66cb55aca88488c9873fdc922a75a1e_renamed_due_excessive_length_73" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_d66cb55aca88488c9873fdc922a75a1e_renamed_due_excessive_length_73" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asyn_fifo_4kx8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "asyn_fifo_4kx8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "integer_divider(DEVIDE_CNT=52)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "integer_divider(DEVIDE_CNT=52)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_receiver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_receiver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_transfer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_transfer" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_cfeed6c9bd394ec8aec0af4f2f286661(MODE="FWFT",WR_DEPTH=8192,RDATA_WIDTH=128,WADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_cfeed6c9bd394ec8aec0af4f2f286661(MODE="FWFT",WR_DEPTH=8192,RDATA_WIDTH=128,WADDR_WIDTH=13,OUTPUT_REG=0,RAM_MUX_RATIO=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_cfeed6c9bd394ec8aec0af4f2f286661(STAGE=3,WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_cfeed6c9bd394ec8aec0af4f2f286661(STAGE=3,WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_cfeed6c9bd394ec8aec0af4f2f286661(STAGE=3,WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_cfeed6c9bd394ec8aec0af4f2f286661(STAGE=3,WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_cfeed6c9bd394ec8aec0af4f2f286661(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_cfeed6c9bd394ec8aec0af4f2f286661_renamed_due_excessive_length_76" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_cfeed6c9bd394ec8aec0af4f2f286661_renamed_due_excessive_length_76" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_cfeed6c9bd394ec8aec0af4f2f286661_renamed_due_excessive_length_75" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_cfeed6c9bd394ec8aec0af4f2f286661_renamed_due_excessive_length_75" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO_8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "W0_FIFO_8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_567a6004e493495294beda4e48350f8b(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=1024,RD_DEPTH=16384,WDATA_WIDTH=128,WADDR_WIDTH=10,RADDR_WIDTH=14,OUTPUT_REG=0,RAM_MUX_RATIO=16)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ram_567a6004e493495294beda4e48350f8b(FAMILY="TITANIUM",MODE="FWFT",WR_DEPTH=1024,RD_DEPTH=16384,WDATA_WIDTH=128,WADDR_WIDTH=10,RADDR_WIDTH=14,OUTPUT_REG=0,RAM_MUX_RATIO=16)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_567a6004e493495294beda4e48350f8b(WIDTH=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_567a6004e493495294beda4e48350f8b(WIDTH=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_567a6004e493495294beda4e48350f8b(STAGE=3,WIDTH=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_567a6004e493495294beda4e48350f8b(STAGE=3,WIDTH=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=2)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=2)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=3)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=3)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=4)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=4)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=6)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=6)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=7)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=7)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=8)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=9)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=9)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=10)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=10)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=12)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=12)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=13)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=13)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=14)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=14)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=15)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_gray2bin_567a6004e493495294beda4e48350f8b(WIDTH=15)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_567a6004e493495294beda4e48350f8b(WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_bin2gray_567a6004e493495294beda4e48350f8b(WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_567a6004e493495294beda4e48350f8b(STAGE=3,WIDTH=11)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_datasync_567a6004e493495294beda4e48350f8b(STAGE=3,WIDTH=11)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_567a6004e493495294beda4e48350f8b_renamed_due_excessive_length_78" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_ctl_567a6004e493495294beda4e48350f8b_renamed_due_excessive_length_78" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_567a6004e493495294beda4e48350f8b_renamed_due_excessive_length_77" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "efx_fifo_top_567a6004e493495294beda4e48350f8b_renamed_due_excessive_length_77" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO_8" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "R0_FIFO_8" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl(C_ID_LEN=4,C_RD_END_ADDR=1382400,C_W_WIDTH=8)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "axi4_ctrl(C_ID_LEN=4,C_RD_END_ADDR=1382400,C_W_WIDTH=8)" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "lcd_driver" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FrameBoundCrop(SKIP_ROWS=2,SKIP_COLS=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "FrameBoundCrop(SKIP_ROWS=2,SKIP_COLS=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "tmds_channel" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "rgb2dvi(ENABLE_OSERDES=0)" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 1240 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "example_top" end (Real time : 10s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 4117, ed: 12213, lv: 10, pw: 13515.86
+[EFX-0000 INFO] ... LUT mapping end (Real time : 11s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port clk_24m is unconnected and will be removed
+WARNING: Input/Inout Port clk_25m is unconnected and will be removed
+WARNING: Input/Inout Port clk_pixel_2x is unconnected and will be removed
+WARNING: Input/Inout Port clk_pixel_10x is unconnected and will be removed
+WARNING: Input/Inout Port dsi_refclk_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_byteclk_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_serclk_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txcclk_i is unconnected and will be removed
+WARNING: Input/Inout Port clk_lvds_1x is unconnected and will be removed
+WARNING: Input/Inout Port clk_lvds_7x is unconnected and will be removed
+WARNING: Input/Inout Port clk_27m is unconnected and will be removed
+WARNING: Input/Inout Port clk_54m is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_hi[0] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[1] is unconnected and will be removed
+WARNING: Input/Inout Port i_dqs_n_lo[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_ctl0_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_ctl1_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_scl_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_sda_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxc_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxc_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxc_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd0_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd1_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd2_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port csi_rxd3_hs_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd0_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd0_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd1_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd1_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd2_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd2_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd3_lp_p_i is unconnected and will be removed
+WARNING: Input/Inout Port dsi_txd3_lp_n_i is unconnected and will be removed
+WARNING: Input/Inout Port uart_rx_i is unconnected and will be removed
+WARNING: Input/Inout Port cmos_sdat_IN is unconnected and will be removed
+WARNING: Input/Inout Port cmos_ctl1 is unconnected and will be removed
+WARNING: Input/Inout Port cmos2_sdat_IN is unconnected and will be removed
+WARNING: Input/Inout Port cmos2_ctl1 is unconnected and will be removed
+WARNING: Input/Inout Port lcd_tp_sda_i is unconnected and will be removed
+WARNING: Input/Inout Port lcd_tp_scl_i is unconnected and will be removed
+WARNING: Input/Inout Port lcd_tp_int_i is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_b7_0_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_g7_0_i[0] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[7] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[6] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[5] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[4] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[3] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[2] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[1] is unconnected and will be removed
+WARNING: Input/Inout Port lcd_r7_0_i[0] is unconnected and will be removed
+INFO: Found 103 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0958722 seconds.
+INFO: 	VDB Netlist Checker took 0.015625 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 267.96 MB, end = 267.96 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 290.78 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 270.528 MB, end = 270.58 MB, delta = 0.052 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 290.024 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'example_top' to Verilog file 'E:/Desktop/FPGA/work/mt9m001_update(2)/outflow/Ti60_Demo.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	910
+[EFX-0000 INFO] EFX_LUT4        : 	3368
+[EFX-0000 INFO] EFX_FF          : 	3898
+[EFX-0000 INFO] EFX_SRL8        : 	710
+[EFX-0000 INFO] EFX_RAM10       : 	83
+[EFX-0000 INFO] =============================== 

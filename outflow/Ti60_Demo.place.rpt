@@ -1,0 +1,276 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.2.307.5.10 
+Date: Mon Nov 11 01:03:02 2024
+
+Copyright (C) 2013 - 2023 Efinix, Inc. All rights reserved.
+ 
+Family: Titanium 
+Device: Ti60F225
+Top-level Entity Name: Ti60_Demo
+Elapsed time for packing: 0 hours 0 minutes 0 seconds
+
+---------- Resource Summary (begin) ----------
+Inputs: 75 / 1703 (4.40%)
+Outputs: 498 / 2267 (21.97%)
+Global Clocks (GBUF): 15 / 32 (46.88%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 7206 / 60800 (11.85%)
+	XLRs needed for Logic: 1855 / 60800 (3.05%)
+	XLRs needed for Logic + FF: 1515 / 60800 (2.49%)
+	XLRs needed for Adder: 743 / 60800 (1.22%)
+	XLRs needed for Adder + FF: 167 / 60800 (0.27%)
+	XLRs needed for FF: 2216 / 60800 (3.64%)
+	XLRs needed for SRL8: 710 / 14720 (4.82%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 83 / 256 (32.42%)
+DSP Blocks: 0 / 160 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+---------- Simple Dual Port RAM Information (begin) ----------
+
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|                                                         NAME                                                          | MODE | READ_WIDTH | WRITE_WIDTH |  WRITE_MODE  | OUTPUT_REG |
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ar/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_aw/ram__D$1          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$b12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$c12         | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$d12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$e12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$f12         | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_wr/ram__D$g1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|   ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$2   | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$b12  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$12   | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$c12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$d12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$e12  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_rd/xefx_fifo_ram/ram__D$f1   | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|            ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/fifo_ack/ram            | SDP  |     2      |      2      | READ_UNKNOWN |   false    |
+|          ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$2          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$12          | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|         ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/ac_fifo/ram__D$b1          | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$b12 | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$12  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+|  ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$2  | SDP  |     16     |     16      | READ_UNKNOWN |   false    |
+| ddr3_ctl_axi/u_efx_ddr3_soft_controller/genblk1.inst_ddr3_axi/inst_efx_ddr3/top_mc/controller_main/map_ram/ram__D$c1  | SDP  |     20     |     20      | READ_UNKNOWN |   false    |
+|                               u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$02                                | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3b12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0b12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$012                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$32                                | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0c12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0d12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0e12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0f12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0g1                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$312                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3c12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3d12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3e12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3f12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u1_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3g1                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$02                                | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3b12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0b12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$012                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$32                                | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0c12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0d12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0e12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0f12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0g1                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$312                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3c12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3d12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3e12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                              u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3f12                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                               u2_asyn_fifo_4kx8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3g1                               | SDP  |     1      |      1      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$d12                      | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$12                       | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$f12                      | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$g1                       | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                       u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$2                       | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$c12                      | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$b12                      | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                      u_axi4_ctrl/Gen_FIFO_W8.u_W0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$e12                      | SDP  |     16     |      1      |  READ_FIRST  |   false    |
+|                      u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$02                       | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$32                       | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$012                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0b12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3b12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0d12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0c12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0e12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0f12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$0g1                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$312                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3c12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3d12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3e12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                     u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3f12                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
+|                      u_axi4_ctrl/Gen_RFIFO_8.u_R0_FIFO_8/u_efx_fifo_top/xefx_fifo_ram/ram__D$3g1                      | SDP  |     1      |     16      | READ_UNKNOWN |   false    |
++-----------------------------------------------------------------------------------------------------------------------+------+------------+-------------+--------------+------------+
+
+----------- Simple Dual Port RAM Information (end) ----------
+
+
+---------- IO Interface Summary (begin) ----------
+
++------------------------+--------------+
+| Missing Interface Pins | Input/Output |
++------------------------+--------------+
+|      cmos_sdat_IN      |    Input     |
+|     cmos2_sdat_IN      |    Input     |
+|      clk_pixel_2x      |    Input     |
+|       cmos_ctl1        |    Input     |
+|       cmos2_ctl1       |    Input     |
+|     i_dqs_n_lo[1]      |    Input     |
+|     i_dqs_n_hi[1]      |    Input     |
+|       csi_sda_i        |    Input     |
+|        clk_code        |    Input     |
+|      dsi_refclk_i      |    Input     |
+|        clk_54m         |    Input     |
+|       csi_scl_i        |    Input     |
+|       csi_ctl0_i       |    Input     |
+|       csi_ctl1_i       |    Input     |
+|     i_dqs_n_lo[0]      |    Input     |
+|     i_dqs_n_hi[0]      |    Input     |
+|       uart_rx_i        |    Input     |
+|        clk_25m         |    Input     |
+|       csi_rxc_i        |    Input     |
+|    dsi_txd3_lp_p_i     |    Input     |
+|    dsi_txd3_lp_n_i     |    Input     |
+|    dsi_txd0_lp_p_i     |    Input     |
+|    dsi_txd0_lp_n_i     |    Input     |
+|    dsi_txd1_lp_p_i     |    Input     |
+|    dsi_txd1_lp_n_i     |    Input     |
+|    dsi_txd2_lp_p_i     |    Input     |
+|    dsi_txd2_lp_n_i     |    Input     |
+|    csi_rxd2_hs_i[0]    |    Input     |
+|    csi_rxd2_hs_i[1]    |    Input     |
+|    csi_rxd2_hs_i[2]    |    Input     |
+|    csi_rxd2_hs_i[3]    |    Input     |
+|    csi_rxd2_hs_i[4]    |    Input     |
+|    csi_rxd2_hs_i[5]    |    Input     |
+|    csi_rxd2_hs_i[6]    |    Input     |
+|    csi_rxd2_hs_i[7]    |    Input     |
+|    csi_rxd2_lp_p_i     |    Input     |
+|    csi_rxd2_lp_n_i     |    Input     |
+|    csi_rxd3_hs_i[0]    |    Input     |
+|    csi_rxd3_hs_i[1]    |    Input     |
+|    csi_rxd3_hs_i[2]    |    Input     |
+|    csi_rxd3_hs_i[3]    |    Input     |
+|    csi_rxd3_hs_i[4]    |    Input     |
+|    csi_rxd3_hs_i[5]    |    Input     |
+|    csi_rxd3_hs_i[6]    |    Input     |
+|    csi_rxd3_hs_i[7]    |    Input     |
+|    csi_rxd3_lp_p_i     |    Input     |
+|    csi_rxd3_lp_n_i     |    Input     |
+|     csi_rxc_lp_p_i     |    Input     |
+|     csi_rxc_lp_n_i     |    Input     |
+|    csi_rxd0_hs_i[0]    |    Input     |
+|    csi_rxd0_hs_i[1]    |    Input     |
+|    csi_rxd0_hs_i[2]    |    Input     |
+|    csi_rxd0_hs_i[3]    |    Input     |
+|    csi_rxd0_hs_i[4]    |    Input     |
+|    csi_rxd0_hs_i[5]    |    Input     |
+|    csi_rxd0_hs_i[6]    |    Input     |
+|    csi_rxd0_hs_i[7]    |    Input     |
+|    csi_rxd0_lp_p_i     |    Input     |
+|    csi_rxd0_lp_n_i     |    Input     |
+|    csi_rxd1_hs_i[0]    |    Input     |
+|    csi_rxd1_hs_i[1]    |    Input     |
+|    csi_rxd1_hs_i[2]    |    Input     |
+|    csi_rxd1_hs_i[3]    |    Input     |
+|    csi_rxd1_hs_i[4]    |    Input     |
+|    csi_rxd1_hs_i[5]    |    Input     |
+|    csi_rxd1_hs_i[6]    |    Input     |
+|    csi_rxd1_hs_i[7]    |    Input     |
+|    csi_rxd1_lp_p_i     |    Input     |
+|    csi_rxd1_lp_n_i     |    Input     |
++------------------------+--------------+
+
+----------- IO Interface Summary (end) ----------
+
+
+---------- IO Placement Summary (begin) ----------
+
++----------------------+--------------+
+| Unassigned Core Pins | Input/Output |
++----------------------+--------------+
+|     lcd_tp_sda_o     |    Output    |
+|    lcd_tp_sda_oe     |    Output    |
+|     lcd_tp_scl_o     |    Output    |
+|    lcd_tp_scl_oe     |    Output    |
+|     lcd_tp_int_o     |    Output    |
+|    lcd_tp_int_oe     |    Output    |
+|     lcd_tp_rst_o     |    Output    |
+|      lcd_pwm_o       |    Output    |
+|      lcd_blen_o      |    Output    |
+|       lcd_vs_o       |    Output    |
+|       lcd_hs_o       |    Output    |
+|       lcd_de_o       |    Output    |
+|    lcd_b7_0_o[7]     |    Output    |
+|    lcd_b7_0_o[6]     |    Output    |
+|    lcd_b7_0_o[5]     |    Output    |
+|    lcd_b7_0_o[4]     |    Output    |
+|    lcd_b7_0_o[3]     |    Output    |
+|    lcd_b7_0_o[2]     |    Output    |
+|    lcd_b7_0_o[1]     |    Output    |
+|    lcd_b7_0_o[0]     |    Output    |
+|    lcd_g7_0_o[7]     |    Output    |
+|    lcd_g7_0_o[6]     |    Output    |
+|    lcd_g7_0_o[5]     |    Output    |
+|    lcd_g7_0_o[4]     |    Output    |
+|    lcd_g7_0_o[3]     |    Output    |
+|    lcd_g7_0_o[2]     |    Output    |
+|    lcd_g7_0_o[1]     |    Output    |
+|    lcd_g7_0_o[0]     |    Output    |
+|    lcd_r7_0_o[7]     |    Output    |
+|    lcd_r7_0_o[6]     |    Output    |
+|    lcd_r7_0_o[5]     |    Output    |
+|    lcd_r7_0_o[4]     |    Output    |
+|    lcd_r7_0_o[3]     |    Output    |
+|    lcd_r7_0_o[2]     |    Output    |
+|    lcd_r7_0_o[1]     |    Output    |
+|    lcd_r7_0_o[0]     |    Output    |
+|    lcd_b7_0_oe[7]    |    Output    |
+|    lcd_b7_0_oe[6]    |    Output    |
+|    lcd_b7_0_oe[5]    |    Output    |
+|    lcd_b7_0_oe[4]    |    Output    |
+|    lcd_b7_0_oe[3]    |    Output    |
+|    lcd_b7_0_oe[2]    |    Output    |
+|    lcd_b7_0_oe[1]    |    Output    |
+|    lcd_b7_0_oe[0]    |    Output    |
+|    lcd_g7_0_oe[7]    |    Output    |
+|    lcd_g7_0_oe[6]    |    Output    |
+|    lcd_g7_0_oe[5]    |    Output    |
+|    lcd_g7_0_oe[4]    |    Output    |
+|    lcd_g7_0_oe[3]    |    Output    |
+|    lcd_g7_0_oe[2]    |    Output    |
+|    lcd_g7_0_oe[1]    |    Output    |
+|    lcd_g7_0_oe[0]    |    Output    |
+|    lcd_r7_0_oe[7]    |    Output    |
+|    lcd_r7_0_oe[6]    |    Output    |
+|    lcd_r7_0_oe[5]    |    Output    |
+|    lcd_r7_0_oe[4]    |    Output    |
+|    lcd_r7_0_oe[3]    |    Output    |
+|    lcd_r7_0_oe[2]    |    Output    |
+|    lcd_r7_0_oe[1]    |    Output    |
+|    lcd_r7_0_oe[0]    |    Output    |
++----------------------+--------------+
+
+----------- IO Placement Summary (end) ----------
+
+Elapsed time for placement: 0 hours 0 minutes 37 seconds
