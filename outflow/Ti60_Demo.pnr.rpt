@@ -1,0 +1,51 @@
+
+---------- Resource Summary (begin) ----------
+Inputs: 75 / 1703 (4.40%)
+Outputs: 498 / 2267 (21.97%)
+Global Clocks (GBUF): 15 / 32 (46.88%)
+Regional Clocks (RBUF): 0 / 32 (0.00%)
+	RBUF: Core: 0 / 16 (0.00%)
+	RBUF: Periphery: 0 / 8 (0.00%)
+	RBUF: Multi-Region: 0 / 8 (0.00%)
+XLRs: 7206 / 60800 (11.85%)
+	XLRs needed for Logic: 1855 / 60800 (3.05%)
+	XLRs needed for Logic + FF: 1515 / 60800 (2.49%)
+	XLRs needed for Adder: 743 / 60800 (1.22%)
+	XLRs needed for Adder + FF: 167 / 60800 (0.27%)
+	XLRs needed for FF: 2216 / 60800 (3.64%)
+	XLRs needed for SRL8: 710 / 14720 (4.82%)
+	XLRs needed for SRL8+FF: 0 / 14720 (0.00%)
+	XLRs needed for Routing: 0 / 60800 (0.00%)
+Memory Blocks: 83 / 256 (32.42%)
+DSP Blocks: 0 / 160 (0.00%)
+---------- Resource Summary (end) ----------
+
+
+
+---------- GBUFCE Assignments (begin) ----------
+
+
++---------------+----------+----------+
+|   Clock Net   | GBUFCE_X | GBUFCE_Y |
++---------------+----------+----------+
+|    clk_27m    |   218    |   163    |
+|  clk_lvds_1x  |   218    |   162    |
+|  clk_lvds_7x  |   107    |   322    |
+|   clk_pixel   |    1     |   159    |
+| clk_pixel_10x |    1     |   164    |
+|    clk_sys    |    1     |   162    |
+|  cmos2_pclk   |    1     |   165    |
+|   cmos_pclk   |    1     |   158    |
+|   core_clk    |   218    |   164    |
+| dsi_byteclk_i |   112    |    1     |
+| dsi_serclk_i  |   107    |    1     |
+| dsi_txcclk_i  |   108    |    1     |
+|    tac_clk    |   111    |    1     |
+|   tdqss_clk   |   110    |    1     |
+|    twd_clk    |   218    |   159    |
++---------------+----------+----------+
+
+
+----------- GBUFCE Assignments (end) ----------
+
+
