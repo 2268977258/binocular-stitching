@@ -31,16 +31,18 @@
   2.1整体介绍
  
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%871.png)
-  图2.1	系统框架
+图2.1	系统框架
 
 系统代码框架如上图所示，摄像头采集视频数据后输入开发板，首先同时使用BRIEF算法与FAST算法对两幅图像进行像素描述符生成与特征点的识别，完成后根据BRIEF描述符对两幅图像上的特征点进行暴力匹配，最后通过匹配结果计算拼接参数，完成图像的拼接。
 
-2.2各模块介绍
+  2.2各模块介绍
  
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%872.png)
+
 图2.2	FAST算法(1)
 
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%873.png)
+
 图2.3	FAST算法(2)
 
 FAST算法模块的各个模块如图2.1与2.2所示，首先将初始图像数据和同步信号、时钟信号等输入到FAST_WINDOW_7x7模块中，在该模块中生成一个遍历整个图像的7*7窗口。将这个窗口输出到compare和weight模块中。Compare模块对于窗口中的每个像素，都会选取周围16个点，比对这16个点与目标点的亮度值，如果有连续的12-15个点的亮度都比目标点大或小，那么将目标点视为角点。Weight模块则会计算每个像素的亮度值在整个窗口内的相对大小，并将这个权重值输入到下一模块。
@@ -64,9 +66,11 @@ BF_match模块从RAM中分别读取两幅图像各个特征点的BRIEF描述符�
 
 第三部分  完成情况及性能参数
 
-3.1拼接结果
+  3.1拼接结果
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%876.png)
+
 图3 拼接结果显示
+
 应用上述算法后，最终实现的图像拼接效果见图3所示，可以发现在拼接处无明显异常。
 
 
