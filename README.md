@@ -21,7 +21,8 @@
     1.5.1 经研读相关论文与小组讨论后，我们发现相较于其他算法，ORB算法在视频处理的特征点识别与描述上具有速度上的优势。故决定采用ORB算法的FAST和BRIEF算法来完成图像特征点的识别与描述工作。
     
     1.5.2为了尽可能提高计算速度，提升FPGA资源利用率，我们决定采用FAST与BRIEF算法并行计算的方式构建代码。
-    图像输入开发板后，在使用FAST计算图像特征点的同时，构建滑动窗口计算图像各个像素点的BRIEF描述符。计算完成后，筛选出特征点的BRIEF描述符与坐标，共同输出到下一步的拼接模块中。
+    图像输入开发板后，在使用FAST计算图像特征点的同时，构建滑动窗口计算图像各个像素点的BRIEF描述符。
+    计算完成后，筛选出特征点的BRIEF描述符与坐标，共同输出到下一步的拼接模块中。
     
     1.5.3采用了优化的裁剪算法，通过将参数变为接口传入裁剪模块，尽管增加了一些开销，但是提高了模块的复用性，并且全程只需做一次裁剪，实际上节省了总开销与总延迟。
     
@@ -30,7 +31,6 @@
   2.1整体介绍
  
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%871.png)
- 
   图2.1	系统框架
 
 系统代码框架如上图所示，摄像头采集视频数据后输入开发板，首先同时使用BRIEF算法与FAST算法对两幅图像进行像素描述符生成与特征点的识别，完成后根据BRIEF描述符对两幅图像上的特征点进行暴力匹配，最后通过匹配结果计算拼接参数，完成图像的拼接。
@@ -38,11 +38,9 @@
 2.2各模块介绍
  
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%872.png)
-
 图2.2	FAST算法(1)
 
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%873.png)
-
 图2.3	FAST算法(2)
 
 FAST算法模块的各个模块如图2.1与2.2所示，首先将初始图像数据和同步信号、时钟信号等输入到FAST_WINDOW_7x7模块中，在该模块中生成一个遍历整个图像的7*7窗口。将这个窗口输出到compare和weight模块中。Compare模块对于窗口中的每个像素，都会选取周围16个点，比对这16个点与目标点的亮度值，如果有连续的12-15个点的亮度都比目标点大或小，那么将目标点视为角点。Weight模块则会计算每个像素的亮度值在整个窗口内的相对大小，并将这个权重值输入到下一模块。
@@ -63,17 +61,16 @@ BRIEF_Descriptor模块为BRIEF算法的顶层模块，接收到31*31的窗口后
 BF_match模块从RAM中分别读取两幅图像各个特征点的BRIEF描述符数据和坐标数据，依次计算各个特征点描述符和另一图像所有特征点描述符的汉明距离，将汉明距离最短的一对点作为匹配结果。
 考虑到特征点对形成的向量应几乎平行，基于这个前提下，可以对匹配做优化，即统计大多数匹配点对形成的向量方向主值，对于偏离方向主值的匹配点对则删除。实际上，双目图像应当只在水平坐标上存在不同，因此可以认为方向主值为x方向，将匹配点对中纵坐标误差相对较大的点对删除实现匹配优化。最终将优化后匹配点对的坐标输出。
 在最后的视频拼接阶段，我们计算两幅图像特征点的x轴坐标差值，计算其加权平均差值，并根据差值计算裁剪参数，进行剪裁放入FIFO中依次取出实现数据的拼接，并存入DDR，利用lcd_driver模块读取DDR数据并生成HDMI信号显示。
+
 第三部分  完成情况及性能参数
+
 3.1拼接结果
+![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%876.png)
 图3 拼接结果显示
 应用上述算法后，最终实现的图像拼接效果见图3所示，可以发现在拼接处无明显异常。
-3.2帧率测试
-帧率测试代码见附录6.6
-经检测，帧率为。
 
 
-
-第五部分  参考文献
+第四部分  参考文献
 [1]Z. Yao, D. Yu, W. Geng, H. Zhang, Y. Xu and W. Xue, "Research and Implementation of Binocular Image Stitching Algorithm Based on FPGA," 2024 5th International Conference on Computer Vision, Image and Deep Learning (CVIDL), Zhuhai, China, 2024, pp. 248-252, doi: 10.1109/CVIDL62147.2024.10603777. 
 
 [2]T. Zhou, J. Ruan and K. Wang, "Real-time sub-pixel binocular ranging based on FPGA," 2022 International Conference on Advanced Computer Science and Information Systems (ICACSIS), Depok, Indonesia, 2022, pp. 31-38, doi: 10.1109/ICACSIS56558.2022.9923492. 
