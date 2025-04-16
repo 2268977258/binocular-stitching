@@ -80,6 +80,7 @@ BF_match模块从RAM中分别读取两幅图像各个特征点的BRIEF描述符�
 
 
 第四部分  参考文献
+
 [1]Z. Yao, D. Yu, W. Geng, H. Zhang, Y. Xu and W. Xue, "Research and Implementation of Binocular Image Stitching Algorithm Based on FPGA," 2024 5th International Conference on Computer Vision, Image and Deep Learning (CVIDL), Zhuhai, China, 2024, pp. 248-252, doi: 10.1109/CVIDL62147.2024.10603777. 
 
 [2]T. Zhou, J. Ruan and K. Wang, "Real-time sub-pixel binocular ranging based on FPGA," 2022 International Conference on Advanced Computer Science and Information Systems (ICACSIS), Depok, Indonesia, 2022, pp. 31-38, doi: 10.1109/ICACSIS56558.2022.9923492. 
