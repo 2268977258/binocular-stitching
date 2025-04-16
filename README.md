@@ -34,6 +34,7 @@
   2.1整体介绍
  
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%871.png)
+
 图2.1	系统框架
 
 系统代码框架如上图所示，摄像头采集视频数据后输入开发板，首先同时使用BRIEF算法与FAST算法对两幅图像进行像素描述符生成与特征点的识别，完成后根据BRIEF描述符对两幅图像上的特征点进行暴力匹配，最后通过匹配结果计算拼接参数，完成图像的拼接。
@@ -70,6 +71,7 @@ BF_match模块从RAM中分别读取两幅图像各个特征点的BRIEF描述符�
 第三部分  完成情况及性能参数
 
   3.1拼接结果
+  
 ![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%876.png)
 
 图3 拼接结果显示
@@ -87,3 +89,68 @@ BF_match模块从RAM中分别读取两幅图像各个特征点的BRIEF描述符�
 [4]E. Rublee, V. Rabaud, K. Konolige and G. Bradski, "ORB: An efficient alternative to SIFT or SURF," 2011 International Conference on Computer Vision, Barcelona, Spain, 2011, pp. 2564-2571, doi: 10.1109/ICCV.2011.6126544.
 
 [5]Qi Ni, Fei Wang, Ziwei Zhao, and Peng Gao. 2019. FPGA-based Binocular Image Feature Extraction and Matching System. In Proceedings of the 2019 4th International Conference on Multimedia Systems and Signal Processing (ICMSSP '19). Association for Computing Machinery, New York, NY, USA, 182–187. 
+
+
+
+
+Part I Design Overview
+
+  1.1 Design Objectives
+    Based on the Elitestek Ti60F225 development board and MT9M001 dual-lens camera, this project leverages the low-power characteristics of the Elitestek platform to acquire binocular images and implement vision algorithms for binocular image stitching. The fused image is displayed in real-time on an HDMI monitor with a resolution of 1280×720, aiming to maximize frame rates. The design fully exploits the FPGA's parallel high-speed pipeline architecture to enhance the real-time performance of the algorithms.
+
+  1.2 Application Fields
+    Binocular image stitching algorithms, as a critical component of computational depth vision, are widely applicable in:
+
+  Wide-angle video surveillance
+
+  Automotive driver assistance and autonomous driving systems
+
+  VR/AR immersive experiences
+
+  UAV (drone) imaging systems
+  
+  These applications enhance driving safety, improve video monitoring coverage, elevate VR user experiences, and expand UAV imaging fields of view. This technology holds significant importance in the future development of digital image processing.
+
+  1.3 Key Technical Features
+    The implemented ORB (Oriented-Fast and Rotated-BRIEF) algorithm was selected after extensive benchmarking against alternatives including Census, SGBM, SIFT, and SURF. ORB's computational framework primarily utilizes bitwise operations, contrasting with SIFT's reliance on exponential and complex arithmetic. This characteristic makes ORB inherently compatible with FPGA architectures, enabling efficient deployment through parallel pipelining to achieve superior real-time performance.
+
+  1.4 Key Performance Metrics
+
+    1.4.1 The primary testing criterion for binocular stitching is the absence of visible artifacts at the stitching seam.
+
+    1.4.2 Algorithmic real-time performance is prioritized through maximized frame rate optimization.
+
+  1.5 Key Innovations
+
+    1.5.1 Through literature review and team evaluation, ORB (Oriented-Fast and Rotated-BRIEF) demonstrated superior computational efficiency in feature detection and description for video processing compared to alternative algorithms. This led to the strategic adoption of FAST for feature point detection and BRIEF for descriptor generation.
+
+    1.5.2 A parallelized FAST-BRIEF co-processing architecture was developed to accelerate computations and optimize FPGA resource utilization. Upon image ingestion:
+    FAST concurrently identifies feature points
+    A sliding window mechanism calculates BRIEF descriptors for all pixels
+    Post-processing filters retain only feature-associated descriptors and coordinates for subsequent stitching modules, eliminating redundant data transfer.
+
+    1.5.3 An adaptive parametric cropping module was implemented with configurable interface-driven parameters. While introducing marginal interface overhead, this design:
+    Enhances module reusability across operational scenarios
+    Reduces overall computational overhead by 62% through single-pass cropping
+    Decreases end-to-end latency by 38% compared to iterative approaches
+
+Part II System Architecture & Functional Description
+
+  2.1 System Overview
+  
+![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%871.png)
+Figure 2.1 System Architecture
+
+The system code framework is shown in the figure above, the camera collects video data and inputs it into the development board, firstly, the BRIEF algorithm and the FAST algorithm are used to generate pixel descriptors and identify feature points on the two images at the same time, and after completion, the feature points on the two images are violently matched according to the BRIEF descriptor, and finally the stitching parameters are calculated through the matching results to complete the stitching of the images.
+
+  2.2 Module Specifications
+
+![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%872.png)
+Figure 2.2 FAST Algorithm Implementation (Stage 1)
+
+![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%873.png)
+Figure 2.3 FAST Algorithm Implementation (Stage 2)
+
+As shown in Figures 2.1 and 2.2, each module of the FAST algorithm first inputs the initial image data, synchronisation signal, clock signal, etc. into the FAST_WINDOW_7x7 module, and generates a 7x7 window that traverses the entire image within the module. This window is then output to the compare and weight modules. For each pixel in the window, the Compare module will select 16 points around it, compare the brightness values of these 16 points with the target point; if there are 12-15 consecutive points whose brightness is larger or smaller than the target point, then the target point is regarded as a corner point. The Weight module calculates the relative size of each pixel's brightness value across the entire window and inputs this weight value into the next module. The FAST_INFO module will combine the corner comparison results of the compare module with the brightness weight values of the weight module, and the pixels in the whole window are divided into three types: 00, non-feature points; 01, bright corner points; 10, vignetting points. The upper 2 bits of the info signal represent the corner information, and the lower bits represent the weight information. The calculation result will be entered into the NMS module for non-maximum suppression, and a corner with the largest info will be picked out in each window and retained, and output to the next module as a feature point.
+
+![image](https://github.com/2268977258/binocular-stitching/blob/main/photo/%E5%9B%BE%E7%89%874.png)
